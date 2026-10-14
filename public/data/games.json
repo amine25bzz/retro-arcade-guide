@@ -8,7 +8,7 @@
     {
       "id": "snk",
       "name": "SNK (Neo Geo)",
-      "note": "إس إن كيه: Metal Slug وKing of Fighters وSamurai Shodown وFatal Fury"
+      "note": "إس إن كيه (Neo Geo): The King of Fighters وSamurai Shodown وFatal Fury وArt of Fighting"
     },
     {
       "id": "konami",
@@ -32,21 +32,6 @@
       "wiki": "Cadillacs_and_Dinosaurs_(video_game)"
     },
     {
-      "id": "metal-slug",
-      "hasGuide": true,
-      "title": "Metal Slug",
-      "titleAr": "ميتال سلاغ",
-      "company": "snk",
-      "companyName": "SNK",
-      "year": "1996",
-      "rating": 4.8,
-      "color": "#c9b21e",
-      "icon": "🪖",
-      "wiki": "Metal_Slug_(1996_video_game)",
-      "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-      "imageSource": "wiki:Metal Slug (1996 video game)"
-    },
-    {
       "id": "street-fighter-2",
       "hasGuide": true,
       "title": "Street Fighter II: The World Warrior",
@@ -58,8 +43,7 @@
       "color": "#e53935",
       "icon": "🥊",
       "wiki": "Street_Fighter_II",
-      "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "imageSource": "wiki:Street Fighter II"
+      "image": "images/street-fighter-2/title-screen.png"
     },
     {
       "id": "final-fight",
@@ -135,49 +119,32 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/a/a1/GhostsnGoblins_flyer.jpg"
     },
     {
-      "id": "metal-slug-2",
+      "id": "art-of-fighting",
       "hasGuide": false,
-      "title": "Metal Slug 2",
-      "titleAr": "ميتال سلاغ 2",
+      "title": "Art of Fighting",
+      "titleAr": "آرت أوف فايتنغ",
       "company": "snk",
       "companyName": "SNK",
-      "year": "1998",
-      "rating": 4.7,
+      "year": "1992",
+      "rating": 4.5,
       "color": "#e67e22",
-      "icon": "🪖",
-      "wiki": "Metal_Slug_2",
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Metal_Slug_2_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "imageSource": "wiki:Metal Slug 2"
+      "icon": "🥋",
+      "wiki": "Art_of_Fighting",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Art_of_Fighting_flyer.jpg"
     },
     {
-      "id": "metal-slug-x",
+      "id": "the-last-blade",
       "hasGuide": false,
-      "title": "Metal Slug X",
-      "titleAr": "ميتال سلاغ إكس",
+      "title": "The Last Blade",
+      "titleAr": "ذا لاست بليد",
       "company": "snk",
       "companyName": "SNK",
-      "year": "1999",
-      "rating": 4.8,
-      "color": "#d4ac0d",
-      "icon": "💣",
-      "wiki": "Metal_Slug_X",
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Metal_Slug_2_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "imageSource": "wiki:Metal Slug 2"
-    },
-    {
-      "id": "metal-slug-3",
-      "hasGuide": false,
-      "title": "Metal Slug 3",
-      "titleAr": "ميتال سلاغ 3",
-      "company": "snk",
-      "companyName": "SNK",
-      "year": "2000",
-      "rating": 4.9,
-      "color": "#1abc9c",
-      "icon": "🚀",
-      "wiki": "Metal_Slug_3",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Metal_Slug_3_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "imageSource": "wiki:Metal Slug 3"
+      "year": "1997",
+      "rating": 4.7,
+      "color": "#16a085",
+      "icon": "⚔️",
+      "wiki": "The_Last_Blade",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Last_Blade_flyer.jpg"
     },
     {
       "id": "king-of-fighters-98",

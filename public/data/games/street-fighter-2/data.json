@@ -1,39 +1,57 @@
 {
   "id": "street-fighter-2",
   "title": "Street Fighter II: The World Warrior",
-  "titleAr": "ستريت فايتر 2",
+  "titleAr": "ستريت فايتر 2: محارب العالم",
+  "titleJp": "Street Fighter II (ストリートファイターII)",
   "company": "capcom",
   "companyName": "Capcom",
   "year": "1991",
-  "genre": "قتال 1 ضد 1",
-  "players": "لاعبان",
-  "platform": "أركيد CPS-1",
+  "genre": "قتال فردي تنافسي (Fighting Game / 1v1)",
+  "players": "لاعبان (2 Players Versus)",
+  "platform": "أركيد (CP System / CPS-1)",
   "rating": 4.9,
   "color": "#e53935",
   "icon": "🥊",
   "wiki": "Street_Fighter_II",
-  "summary": "لعبة القتال الأسطورية من Capcom التي أطلقت موجة ألعاب القتال. اختر مقاتلاً من ثمانية، ثم واجه أربعة زعماء حتى بيسون.",
+  "image": "images/street-fighter-2/title-screen.png",
+  "summary": "لعبة القتال الأسطورية الخالدة من Capcom الصادرة عام 1991 على لوحة أركيد CPS-1، والتي أحدثت ثورة حقيقية في صناعة ألعاب الفيديو وأسست قواعد وأساسيات ألعاب القتال الثنائية الأبعاد (2D Fighters). تتميز بنظام الستة أزرار الثوري، وقائمة أيقونية تضم 8 مقاتلين لكل منهم أسلوبه الخاص، ومواجهة الزعماء الأربعة الكبار لمنظمة شادالو حتى إسقاط الديكتاتور إم. بايسون.",
   "sections": {
     "heroes": {
-      "title": "المقاتلون",
+      "title": "المقاتلون الثمانية",
       "icon": "🥋",
       "color": "#e53935",
-      "intro": "ثمانية محاربين من حول العالم.",
+      "intro": "ثمانية أبطال محاربين من أنحاء العالم يتنافسون في البطولة لتحديد أقوى مقاتل على وجه الأرض.",
       "items": [
         {
           "id": "ryu",
           "name": "ريو",
-          "icon": "🥋",
-          "summary": "محارب ياباني يبحث عن القوة الحقيقية.",
-          "description": "ريو مقاتل ياباني متجول، وهو الوجه الأشهر للسلسلة. أسلوبه متوازن وحركاته الخاصة أساس تعلم اللعبة.",
-          "tag": "مقاتل",
           "nameEn": "Ryu",
+          "icon": "🥋",
+          "role": "متوازن وشامل (All-Around / Shoto)",
+          "tag": "البطل المتجول · أسلوب الشوتوكان",
+          "summary": "محارب ياباني متجول يكرس حياته للبحث عن المعنى الحقيقي للقتال وإتقان أسلوب أنساتسو-كين.",
+          "description": "ريو هو البطل الرئيسي لسلسلة ستريت فايتر، تلميذ المعلم غوكين وصديق كين ماسترز منذ الطفولة. يعتمد على أسلوب أنساتسو-كين المتوازن بدقة بين الهجوم والدفاع، ويمتلك ثلاث حركات أيقونية أصبحت معياراً لألعاب القتال قاطبة: الهادوكين لإبعاد الخصم والسيطرة على المسافات، الشوريوكين المضاد للقفزات الجوية، والتاتسوماكي سنبوكياكو لعبور الشاشة ومباغتة الخصوم.",
+          "image": "images/street-fighter-2/char-ryu.png",
+          "specialAttack": "Shoryuken (شوريوكين)",
+          "stats": {
+            "power": "متوسط إلى قوي (4/5)",
+            "speed": "متوازن (3.5/5)",
+            "defense": "صلب ومتماسك (4/5)",
+            "difficulty": "سهل ومناسب للجميع (2/5)"
+          },
           "fields": {
-            "البلد": "اليابان",
-            "أشهر حركاته": "هادوكين، شوريوكين، تاتسوماكي"
+            "البلد": "اليابان (Japan)",
+            "أسلوب القتال": "أنساتسو-كين المستوحى من كاراتيه الشوتوكان",
+            "أشهر الحركات": "Hadoken، Shoryuken، Tatsumaki Senpukyaku",
+            "المرحلة الخاصة": "قلعة سوزاكو (Suzaku Castle)",
+            "الغريم التقليدي": "كين ماسترز وساقاط",
+            "السلاح المفضل": "القبضة العارية والانضباط الذهني"
           },
           "tips": [
-            "ابدأ به لتتعلم الحركات الأساسية."
+            "استخدم الهادوكين (⬇ ↘ ➡ + لكمة) للسيطرة على مسافة القتال وإجبار الخصم على القفز باتجاهك.",
+            "عندما يقفز الخصم نحوك، نفذ الشوريوكين فوراً (➡ ⬇ ↘ + لكمة) لإسقاطه وإلحاق ضرر جسيم دون التعرض لأي أذى.",
+            "ضربة اللكمة الثقيلة المنخفضة (Crouching Heavy Punch) تعتبر مضاداً رائعاً للقفزات إذا فاتك توقيت الشوريوكين.",
+            "حركة تاتسوماكي سنبوكياكو تستطيع تجاوز بعض المقذوفات النارية إذا تم توقيتها بدقة."
           ],
           "links": [
             {
@@ -47,78 +65,155 @@
               "label": "شوريوكين"
             },
             {
+              "section": "weapons",
+              "id": "tatsumaki",
+              "label": "ركلة الإعصار"
+            },
+            {
               "section": "stages",
               "id": "japan-ryu",
-              "label": "مرحلة ريو"
+              "label": "قلعة سوزاكو"
+            },
+            {
+              "section": "story",
+              "id": "ending-ryu",
+              "label": "خاتمة ريو"
             }
-          ],
-          "wiki": "Ryu_(Street_Fighter)",
-          "image": "https://upload.wikimedia.org/wikipedia/en/5/50/RyuStreetFighterTwoHadoken.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Ryu (Street Fighter)"
+          ]
         },
         {
           "id": "ken",
-          "name": "كين",
-          "icon": "🏆",
-          "summary": "صديق ريو وغريمه، من الولايات المتحدة.",
-          "description": "كين ماسترز تدرب مع ريو. حركاته مشابهة لريو لكن بأسلوب أكثر هجومية في كثير من الإصدارات.",
-          "tag": "مقاتل",
+          "name": "كين ماسترز",
           "nameEn": "Ken Masters",
-          "fields": {
-            "البلد": "أمريكا",
-            "أشهر حركاته": "هادوكين، شوريوكين"
+          "icon": "🔥",
+          "role": "هجومي ناري (Rushdown / Offensive)",
+          "tag": "بطل أمريكا · التنين الناري",
+          "summary": "المليونير الأمريكي وبطل الفنون القتالية، صديق ريو وغريمه التاريخي، يمتاز بشوريوكين حارقة وهجوم كاسح.",
+          "description": "كين ماسترز هو رفيق تدريب ريو وتلميذ غوكين الآخر. ينحدر من عائلة أمريكية فاحشة الثراء لكنه يعشق القتال الحر. يشارك ريو نفس الحركات الأساسية، لكن أسلوبه يركز على الاندفاع الهجومي والشراسة، وتغطي ركلاته مساحات أوسع، وتعتبر ضربة الشوريوكين الخاصة به أكثر خطورة واشتعالاً وتتحرك للأمام لمسافة أطول.",
+          "image": "images/street-fighter-2/char-ken.png",
+          "specialAttack": "Flaming Dragon Punch (شوريوكين التنين)",
+          "stats": {
+            "power": "هجومي خارق (4.5/5)",
+            "speed": "سريع ومندفع (4/5)",
+            "defense": "متوسط (3.5/5)",
+            "difficulty": "سهل وممتع (2/5)"
           },
+          "fields": {
+            "البلد": "الولايات المتحدة الأمريكية (USA)",
+            "أسلوب القتال": "أنساتسو-كين الهجومي المعزز بالطاقة النارية",
+            "أشهر الحركات": "Flaming Shoryuken، Hadoken، Aerial Tatsumaki",
+            "المرحلة الخاصة": "ميناء سان فرانسيسكو (Battle Harbor)",
+            "الغريم": "ريو",
+            "الحالة": "متزوج من إليزا"
+          },
+          "tips": [
+            "شوريوكين كين تتحرك أفقياً للأمام بمسافة أكبر من ريو، مما يجعله قادراً على معاقبة الخصوم حتى لو كانوا بعيدين قليلاً.",
+            "ركلات كين الثقيلة تمتلك سرعة إطارات استثنائية ونطاقاً واسعاً لإرباك دفاعات الخصم.",
+            "اضغط على الخصم في زاوية الحلبة بسلسلة من الركلات الخفيفة المتتابعة ثم الشوريوكين لإنهاء الجولة بسرعة."
+          ],
           "links": [
             {
-              "section": "heroes",
-              "id": "ryu",
-              "label": "ريو"
+              "section": "weapons",
+              "id": "shoryuken",
+              "label": "شوريوكين كين"
+            },
+            {
+              "section": "weapons",
+              "id": "hadoken",
+              "label": "هادوكين"
+            },
+            {
+              "section": "stages",
+              "id": "usa-ken",
+              "label": "ميناء سان فرانسيسكو"
+            },
+            {
+              "section": "story",
+              "id": "ending-ken",
+              "label": "خاتمة كين"
             }
-          ],
-          "wiki": "Ken_Masters",
-          "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Ken_Masters_%28SF3_-_Third_Strike%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Ken Masters"
+          ]
         },
         {
           "id": "chun-li",
           "name": "تشون لي",
-          "icon": "🦵",
-          "summary": "مقاتلة صينية سريعة ببرق الركلات.",
-          "description": "تشون لي أيقونة في ألعاب القتال، وتشتهر بركلاتها السريعة.",
-          "tag": "مقاتلة",
           "nameEn": "Chun-Li",
+          "icon": "🦵",
+          "role": "سريعة وخاطفة (Speed & Poke)",
+          "tag": "سيدة الكونغ فو الأولى · محققة الإنتربول",
+          "summary": "محققة الإنتربول الشجاعة من الصين وأقوى امرأة في العالم، تسعى للإطاحة بمنظمة شادالو والانتقام لوالدها.",
+          "description": "تشون لي هي أول شخصية نسائية في تاريخ ألعاب القتال الثنائية الأبعاد، وتعد أيقونة خالدة في الثقافة الشعبية. تجمع بين سرعة الحركة الفائقة وأقوى ركلات في اللعبة. تستخدم فن الكيمبو الصيني وتاي تشي، وتشتهر بركلة البرق المتتابعة (Hyakuretsukyaku) وركلة الطائر المقلوبة (Spinning Bird Kick) التي تمكنها من التحليق فوق الخصوم وتفادي الحصار.",
+          "image": "images/street-fighter-2/char-chunli.png",
+          "specialAttack": "Hyakuretsukyaku (ركلة البرق)",
+          "stats": {
+            "power": "متوسط (3/5)",
+            "speed": "فائقة وخاطفة (5/5)",
+            "defense": "رشيقة وتعتمد على المراوغة (3.5/5)",
+            "difficulty": "متوسط (3/5)"
+          },
           "fields": {
-            "البلد": "الصين",
-            "أشهر حركاتها": "ركلة البرق (Lightning Kick)"
+            "البلد": "الصين (China)",
+            "أسلوب القتال": "الكونغ فو الصيني، الووشو والكيمبو",
+            "أشهر الحركات": "Hyakuretsukyaku (ركلة البرق)، Spinning Bird Kick",
+            "المرحلة الخاصة": "شارع السلام - شنغهاي (Peace Road)",
+            "الهدف": "تدمير منظمة شادالو والانتقام لمقتل والدها دوراي"
           },
           "tips": [
-            "استعمل ركلاتها بعيدة المدى."
+            "ركلتها العادية البعيدة (Heavy Kick) تمتلك أطول مدى طولي مستقيم وتعد سلاحاً دفاعياً مدمراً ضد القفزات.",
+            "لتفعيل ركلة البرق (Hyakuretsukyaku)، اضغط بسرعة فائقة ومتكررة على أي زر ركلة لتنهمر عشرات الركلات في ثوانٍ.",
+            "تستطيع تشون لي القفز على جدران الشاشة لتغيير اتجاه هجومها ومباغتة الخصم من الخلف."
           ],
           "links": [
             {
               "section": "weapons",
               "id": "lightning",
               "label": "ركلة البرق"
+            },
+            {
+              "section": "weapons",
+              "id": "spinning-bird",
+              "label": "ركلة الطائر الدوارة"
+            },
+            {
+              "section": "stages",
+              "id": "china",
+              "label": "شارع السلام"
+            },
+            {
+              "section": "story",
+              "id": "ending-chunli",
+              "label": "خاتمة تشون لي"
             }
-          ],
-          "wiki": "Chun-Li",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
+          ]
         },
         {
           "id": "guile",
-          "name": "غايل",
-          "icon": "✈️",
-          "summary": "جندي أمريكي بشعر مرفوع وهجمات الشحن.",
-          "description": "غايل جندي في سلاح الجو الأمريكي. يعتمد على الشحن: تحتفظ بالعصا للخلف ثم تضغط للأمام.",
-          "tag": "مقاتل",
+          "name": "جايل",
           "nameEn": "Guile",
+          "icon": "🪖",
+          "role": "سيطرة ودفاع حصين (Zoning / Defensive Wall)",
+          "tag": "رائد سلاح الجو الأمريكي · صقر العدالة",
+          "summary": "ضابط شجاع في سلاح الجو الأمريكي، يمتلك أقوى دفاع في اللعبة ويسعى لتعقب بايسون ثأراً لصديقه تشارلي ناش.",
+          "description": "جايل هو المعيار الذهبي لشخصيات الشحن (Charge Characters) في ألعاب القتال. يمتلك اثنتين من أقوى وأكثر الحركات توازناً في تاريخ الأركيد: سونيك بوم (Sonic Boom) السريعة التي تطلق موجة هوائية قاطعة وتسمح له بالتقدم خلفها، والفلاش كيك (Flash Kick) القاضية المضادة للجو. لعبه الدفاعي المتقن (المعروف بأسلوب السلحفاة التكتيكية) قادر على صد وإحباط أي هجوم.",
+          "image": "images/street-fighter-2/char-guile.png",
+          "specialAttack": "Flash Kick (ركلة الشقلبة الصاعدة)",
+          "stats": {
+            "power": "قوي ودقيق (4/5)",
+            "speed": "تكتيكي ومدروس (3.5/5)",
+            "defense": "حصن منيع لا يخترق (5/5)",
+            "difficulty": "متوسط ويتطلب إتقان الشحن (3/5)"
+          },
           "fields": {
-            "البلد": "أمريكا",
-            "أشهر حركاته": "سونيك بوم، فلاش كيك"
+            "البلد": "الولايات المتحدة الأمريكية (USA)",
+            "الرتبة": "رائد في القوات الجوية الأمريكية (USAF Major)",
+            "أسلوب القتال": "فنون الدفاع عن النفس العسكرية والقتال التكتيكي",
+            "أشهر الحركات": "Sonic Boom (سونيك بوم), Somersault Kick (فلاش كيك)",
+            "المرحلة الخاصة": "قاعدة سلاح الجو (USAF Air Base)"
           },
           "tips": [
-            "الدفاع ثم الشحن هو مفتاح اللعب به."
+            "احرص دائماً على وضعية الجلوس والدفاع (الضغط قطرياً لأسفل والخلف)، فهذا يشحن حركتي السونيك بوم والفلاش كيك في آن واحد!",
+            "أطلق السونيك بوم الخفيفة ثم امشِ خلفها مباشرة للاقتراب من الخصم وهو محاصر بالدفاع.",
+            "إذا قفز الخصم فوق السونيك بوم، استقبله فوراً بالفلاش كيك (فوق + ركلة) لتحطيم هجومه بضرر مضاعف."
           ],
           "links": [
             {
@@ -130,698 +225,400 @@
               "section": "weapons",
               "id": "flash-kick",
               "label": "فلاش كيك"
+            },
+            {
+              "section": "stages",
+              "id": "usa-guile",
+              "label": "قاعدة سلاح الجو"
+            },
+            {
+              "section": "story",
+              "id": "ending-guile",
+              "label": "خاتمة جايل"
             }
-          ],
-          "wiki": "Guile_(Street_Fighter)",
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
+          ]
         },
         {
           "id": "blanka",
           "name": "بلانكا",
+          "nameEn": "Blanka (Jimmy)",
           "icon": "⚡",
-          "summary": "مقاتل برازيلي أخضر بالكهرباء.",
-          "description": "بلانكا مقاتل من غابات الأمازون، يتميز بهجمات الدحرجة والكهرباء.",
-          "tag": "مقاتل",
-          "nameEn": "Blanka",
-          "fields": {
-            "البلد": "البرازيل",
-            "أشهر حركاته": "الدحرجة، الصعق الكهربائي"
+          "role": "وحشي وهجوم غير متوقع (Brawler / Electric)",
+          "tag": "وحش الأمازون · الصاعقة الخضراء",
+          "summary": "شاب نجا من تحطم طائرة في أدغال البرازيل وتأقلم مع الطبيعة الوحشية واكتسب قدرات كهربائية خارقة.",
+          "description": "بلانكا (واسمه الحقيقي جيمي) هو مقاتل متوحش ذو بشرة خضراء وشعر برتقالي كثيف. قتاله غير تقليدي وغريزي يعتمد على العض، الخدش، والتدحرج السريع في الهواء كالكرة الفولاذية (Rolling Attack) لضرب الخصم والارتداد للخلف بأمان. كما يمكنه توليد تيار كهربائي عالي الفولتية يحيط بكامل جسده ويصعق أي شخص يقترب منه.",
+          "image": "images/street-fighter-2/char-blanka.png",
+          "specialAttack": "Electric Thunder (الصعق الكهربائي)",
+          "stats": {
+            "power": "قوي ومدمر (4/5)",
+            "speed": "سريع ومباغت (4.5/5)",
+            "defense": "متوسط (3.5/5)",
+            "difficulty": "سهل ومزعج للخصوم (2/5)"
           },
+          "fields": {
+            "البلد": "البرازيل (Brazil)",
+            "أسلوب القتال": "قتال غريزي متوحش وقدرات الصعق الكهربائي",
+            "أشهر الحركات": "Electric Thunder، Rolling Attack، Wild Fang (العض)",
+            "المرحلة الخاصة": "حوض نهر الأمازون (Amazon River Basin)"
+          },
+          "tips": [
+            "حركة الصعق الكهربائي (الضغط السريع المتكرر على زر اللكمة) هي أقوى وسيلة لردع الخصوم الذين يحاولون الإمساك بك.",
+            "استخدم الرولينغ أتاك الخفيف للتوقف أمام الخصم مباشرة ومباغتته بهجوم العض أو الرمي.",
+            "قفزة بلانكا المنخفضة والسريعة تجعل تجنب المقذوفات النارية أمراً سلساً للغاية."
+          ],
           "links": [
             {
               "section": "weapons",
               "id": "electric",
               "label": "الصعق الكهربائي"
+            },
+            {
+              "section": "weapons",
+              "id": "rolling-attack",
+              "label": "الهجوم الدوار"
+            },
+            {
+              "section": "stages",
+              "id": "brazil",
+              "label": "نهر الأمازون"
+            },
+            {
+              "section": "story",
+              "id": "ending-blanka",
+              "label": "خاتمة بلانكا"
             }
-          ],
-          "wiki": "Blanka",
-          "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Super_Blanka.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Blanka"
+          ]
         },
         {
           "id": "honda",
-          "name": "إي هوندا",
-          "icon": "🏯",
-          "summary": "مصارع سومو ياباني قوي.",
-          "description": "إي هوندا مصارع سومو يريد التعريف بفنه عالمياً. يشتهر بصفعاته السريعة.",
-          "tag": "مقاتل",
+          "name": "إدموند هوندا",
           "nameEn": "E. Honda",
-          "fields": {
-            "البلد": "اليابان",
-            "أشهر حركاته": "مئة صفعة (Hundred Hand Slap)"
+          "icon": "🌊",
+          "role": "قوة بدنية وضغط هجومي (Heavy Brawler)",
+          "tag": "بطل السومو الياباني · جبل إيدو",
+          "summary": "مصارع سومو ياباني برتبة أوزيكي يسعى لإثبات أن السومو هو أعظم فن قتالي في العالم أمام المنافسين الدوليين.",
+          "description": "إدموند هوندا مصارع سومو ذو بنية ضخمة وقوة بدنية هائلة. يمتلك حركة صفعة المئة يد الخاطفة (Hundred Hand Slap) التي تصنع جداراً لا يمكن اختراقه من الضربات اليدوية، ونطحة السومو الطائرة (Sumo Headbutt) التي تندفع عبر الشاشة بسرعة الصاروخ وتخترق دفاعات الخصم أو تسقطهم من الجو.",
+          "image": "images/street-fighter-2/char-honda.png",
+          "specialAttack": "Hundred Hand Slap (صفعة المئة يد)",
+          "stats": {
+            "power": "جبار وساحق (4.5/5)",
+            "speed": "بطيء الحركة وسريع الاندفاع (3/5)",
+            "defense": "صلب وبنية ضخمة (4.5/5)",
+            "difficulty": "سهل للمبتدئين (2/5)"
           },
+          "fields": {
+            "البلد": "اليابان (Japan)",
+            "الرتبة": "أوزيكي في مصارعة السومو الاحترافية",
+            "أسلوب القتال": "مصارعة السومو التقليدية والمعدلة",
+            "أشهر الحركات": "Hundred Hand Slap، Flying Sumo Headbutt، Sumo Smash",
+            "المرحلة الخاصة": "حمام إيدو الساخن (Edo Hot Springs Bathhouse)"
+          },
+          "tips": [
+            "نطحة السومو (شحن للخلف ثم للأمام + لكمة) ممتازة للهروب من الزوايا ومعاقبة كرات الطاقة.",
+            "صفعة المئة يد تسبب ضرراً ملحوظاً للخصم حتى لو كان في وضعية الدفاع (Chip Damage).",
+            "رمية هوندا القريبة (Oicho Throw) تلحق ضرراً هائلاً، استغل تقدم الخصم لتنفيذها."
+          ],
           "links": [
             {
               "section": "weapons",
               "id": "hundred-hand",
-              "label": "مئة صفعة"
+              "label": "صفعة المئة يد"
+            },
+            {
+              "section": "weapons",
+              "id": "sumo-headbutt",
+              "label": "نطحة السومو"
+            },
+            {
+              "section": "stages",
+              "id": "japan-honda",
+              "label": "حمام إيدو"
+            },
+            {
+              "section": "story",
+              "id": "ending-honda",
+              "label": "خاتمة هوندا"
             }
-          ],
-          "wiki": "E._Honda",
-          "image": "https://upload.wikimedia.org/wikipedia/en/7/79/Edmondhonda.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:E. Honda"
+          ]
         },
         {
           "id": "zangief",
           "name": "زانغيف",
-          "icon": "🐻",
-          "summary": "مصارع سوفيتي قوي بحركات الإمساك.",
-          "description": "زانغيف مصارع روسي هائل القوة، ويعتمد على الإمساك والرمي.",
-          "tag": "مقاتل",
-          "nameEn": "Zangief",
+          "nameEn": "Zangief (Red Cyclone)",
+          "icon": "🌪️",
+          "role": "إمساك وسحق دوراني (Grappler)",
+          "tag": "الإعصار الأحمر · عملاق المصارعة السوفيتية",
+          "summary": "بطل المصارعة الروسية الوطني ذو البنية الجبلية، يتدرب مع الدببة في سيبيريا ويسحق الخصوم بضربة البايلدرايفر.",
+          "description": "زانغيف هو أب ومؤسس فئة المصارعين (Grapplers) في تاريخ ألعاب القتال. على الرغم من بطء سرعته وصعوبة تجاوزه لكرات الطاقة، إلا أنه متى ما وضع يديه على الخصم تنتهي الجولة تقريباً! حركته الأسطورية سبينينغ بايلدرايفر (Spinning Piledriver) الناتجة عن دوران 360 درجة تلتهم ثلث شريط صحة الخصم بضربة واحدة، ولديه حركة دبل لاريات لمسح الهجمات المحيطة به.",
+          "image": "images/street-fighter-2/char-zangief.png",
+          "specialAttack": "Spinning Piledriver (السحق الدوراني 360)",
+          "stats": {
+            "power": "الأعلى في اللعبة قاطبة (5/5)",
+            "speed": "بطيء وثقيل الخطى (2/5)",
+            "defense": "أعلى شريط صحة وتحمل (5/5)",
+            "difficulty": "صعب ويتطلب احترافية (4.5/5)"
+          },
           "fields": {
-            "البلد": "الاتحاد السوفيتي",
-            "أشهر حركاته": "Spinning Piledriver"
+            "البلد": "الاتحاد السوفيتي (USSR)",
+            "اللقب": "الإعصار الأحمر (The Red Cyclone)",
+            "أسلوب القتال": "المصارعة الروسية الحرة ومصارعة السامبو",
+            "أشهر الحركات": "Spinning Piledriver (SPD)، Double Lariat، Flying Powerbomb",
+            "المرحلة الخاصة": "مصنع صهر المعادن (Factory Blast Furnace)"
           },
           "tips": [
-            "اقترب منه ولا تبقَ أمامه بلا حذر."
+            "لتنفيذ حركة البايلدرايفر 360 بسهولة، نفذ الدوران أثناء القفز للأمام أو أثناء تنفيذ حركة اللاريات، واضغط لكمة فور ملامسة الأرض.",
+            "حركة الدبل لاريات (الضغط على 3 أزرار لكم) تجعل النصف العلوي من جسدك منيعاً ضد المقذوفات النارية مؤقتاً.",
+            "اقترب بهدوء وحاصر الخصم في الزاوية، فرمية واحدة كفيلة بقلب موازين المعركة بالكامل."
           ],
           "links": [
             {
               "section": "weapons",
               "id": "piledriver",
-              "label": "الدوامة"
+              "label": "سبينينغ بايلدرايفر"
+            },
+            {
+              "section": "weapons",
+              "id": "double-lariat",
+              "label": "دبل لاريات"
+            },
+            {
+              "section": "stages",
+              "id": "ussr",
+              "label": "مصنع صهر المعادن"
+            },
+            {
+              "section": "story",
+              "id": "ending-zangief",
+              "label": "خاتمة زانغيف"
             }
-          ],
-          "wiki": "Zangief",
-          "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Super_Zangief.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Zangief"
+          ]
         },
         {
           "id": "dhalsim",
           "name": "دالسيم",
-          "icon": "🧘",
-          "summary": "نسّاك هندي بأطراف تمتد.",
-          "description": "دالسيم يعتمد على المسافة بأطرافه الممتدة وكرات النار اليوغية.",
-          "tag": "مقاتل",
           "nameEn": "Dhalsim",
-          "fields": {
-            "البلد": "الهند",
-            "أشهر حركاته": "نار اليوغا"
+          "icon": "🧘",
+          "role": "قتال بعيد المدى وإبقاء المسافة (Zoner / Keepaway)",
+          "tag": "حكيم اليوغا الهندي · سيد اللهب",
+          "summary": "سيد اليوغا المسالم من الهند، يمد أطرافه لأبعاد خيالية ويطلق كرات اللهب لجمع المال لمساعدة قريته الفقيرة.",
+          "description": "دالسيم شخصية فريدة تكسر قوانين الفيزياء بفضل إتقانه لليوغا الغامضة. يستطيع مد يديه وقدميه عبر كامل الشاشة لضرب الخصم من مسافة آمنة تماماً، كما ينفث كرات اللهب الروحية (Yoga Fire) وموجات النار الحارقة (Yoga Flame). يتطلب دالسيم صبراً وحكمة في التحكم بالمسافات ومنع الخصم من الاقتراب.",
+          "image": "images/street-fighter-2/char-dhalsim.png",
+          "specialAttack": "Yoga Fire & Yoga Flame (يوغا فاير)",
+          "stats": {
+            "power": "متوسط إلى دقيق (3.5/5)",
+            "speed": "بطيء الحركة لكنه صاحب أطول مدى (3/5)",
+            "defense": "ضعيف في الاشتباك الملتصق (2.5/5)",
+            "difficulty": "خبير ومتقدم (4/5)"
           },
+          "fields": {
+            "البلد": "الهند (India)",
+            "أسلوب القتال": "اليوغا الغامضة والتحكم الروحي بالنار",
+            "أشهر الحركات": "Yoga Fire، Yoga Flame، Yoga Spear، Yoga Mummy",
+            "المرحلة الخاصة": "قصر المهراجا والأفيال (Maharajah's Palace)"
+          },
+          "tips": [
+            "استخدم لكمة الوقوف الثقيلة (Standing Heavy Punch) لضرب الخصم من أقصى الشاشة دون أن يتحرك من مكانه.",
+            "إذا حاول الخصم القفز نحوك من بعيد، قابله بركلة الجلوس الثقيلة (Slide Kick) أو لكمة اليوغا المائلة لإسقاطه.",
+            "أطلق يوغا فاير بطيئة ثم انتظر رد فعل الخصم، فإذا قفز أسقطه بركلتك الطويلة."
+          ],
           "links": [
             {
               "section": "weapons",
               "id": "yoga-fire",
-              "label": "نار اليوغا"
-            }
-          ],
-          "wiki": "Dhalsim",
-          "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Super_Dhalsim.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Dhalsim"
-        }
-      ]
-    },
-    "weapons": {
-      "title": "الحركات الخاصة",
-      "icon": "💥",
-      "color": "#3498db",
-      "intro": "اللعبة بلا أسلحة، لكن لكل مقاتل حركاته المميزة.",
-      "items": [
-        {
-          "id": "hadoken",
-          "name": "هادوكين",
-          "icon": "🔵",
-          "summary": "كرة طاقة تُرمى للأمام.",
-          "description": "حركة ريو وكين الأشهر. بإدخال ربع دائرة للأمام ثم ضغط زر لكمة.",
-          "tag": "حركة خاصة",
-          "nameEn": "Hadoken",
-          "fields": {
-            "الإدخال": "ربع دائرة للأمام + لكمة",
-            "الشخصيات": "ريو، كين"
-          },
-          "tips": [
-            "لا تكررها بلا حساب، العدو يقفز فوقها."
-          ],
-          "links": [
-            {
-              "section": "heroes",
-              "id": "ryu",
-              "label": "ريو"
+              "label": "يوغا فاير"
             },
             {
-              "section": "heroes",
-              "id": "ken",
-              "label": "كين"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "shoryuken",
-          "name": "شوريوكين",
-          "icon": "🐉",
-          "summary": "لكمة صاعدة قوية.",
-          "description": "حركة قتال جوي تُستعمل لصد القفز.",
-          "tag": "حركة خاصة",
-          "nameEn": "Shoryuken",
-          "fields": {
-            "الإدخال": "أمام ثم أسفل ثم أسفل-أمام + لكمة",
-            "الشخصيات": "ريو، كين"
-          },
-          "tips": [
-            "مثالية ضد القفزات."
-          ],
-          "links": [
+              "section": "weapons",
+              "id": "yoga-flame",
+              "label": "يوغا فليم"
+            },
             {
-              "section": "heroes",
-              "id": "ryu",
-              "label": "ريو"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        },
-        {
-          "id": "sonic-boom",
-          "name": "سونيك بوم",
-          "icon": "🌀",
-          "summary": "موجة طاقة بعد الشحن.",
-          "description": "هجوم غايل المشهور: حرّك للخلف مع الاحتفاظ ثم للأمام مع اللكمة.",
-          "tag": "حركة خاصة",
-          "nameEn": "Sonic Boom",
-          "fields": {
-            "الإدخال": "شحن خلف ثم أمام + لكمة"
-          },
-          "links": [
+              "section": "stages",
+              "id": "india",
+              "label": "قصر المهراجا"
+            },
             {
-              "section": "heroes",
-              "id": "guile",
-              "label": "غايل"
+              "section": "story",
+              "id": "ending-dhalsim",
+              "label": "خاتمة دالسيم"
             }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "search:Sonic CD"
-        },
-        {
-          "id": "flash-kick",
-          "name": "فلاش كيك",
-          "icon": "🦶",
-          "summary": "ركلة صاعدة بعد الشحن.",
-          "description": "ركلة دفاعية قوية لغايل.",
-          "tag": "حركة خاصة",
-          "nameEn": "Flash Kick",
-          "fields": {
-            "الإدخال": "شحن أسفل ثم أعلى + ركلة"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "guile",
-              "label": "غايل"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "lightning",
-          "name": "ركلة البرق",
-          "icon": "⚡",
-          "summary": "ركلات سريعة متتالية.",
-          "description": "تشون لي تضغط زر الركلة بسرعة لتنفيذ سلسلة ركلات.",
-          "tag": "حركة خاصة",
-          "nameEn": "Lightning Kick",
-          "fields": {
-            "الإدخال": "ركلة متكررة"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "chun-li",
-              "label": "تشون لي"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "electric",
-          "name": "الصعق الكهربائي",
-          "icon": "🔌",
-          "summary": "يصعق بلانكا الخصم بالكهرباء.",
-          "description": "هجوم قريب المدى لبلانكا يحميه من الاقتراب.",
-          "tag": "حركة خاصة",
-          "nameEn": "Electric Thunder",
-          "links": [
-            {
-              "section": "heroes",
-              "id": "blanka",
-              "label": "بلانكا"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "hundred-hand",
-          "name": "مئة صفعة",
-          "icon": "🖐️",
-          "summary": "صفعات سريعة لإي هوندا.",
-          "description": "يضغط اللاعب زر اللكمة بسرعة لتوجيه صفعات متتالية.",
-          "tag": "حركة خاصة",
-          "nameEn": "Hundred Hand Slap",
-          "links": [
-            {
-              "section": "heroes",
-              "id": "honda",
-              "label": "إي هوندا"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "piledriver",
-          "name": "دوامة زانغيف",
-          "icon": "🌪️",
-          "summary": "رمي دوار مدمر.",
-          "description": "تنفيذ إمساك ثم حركة دائرية، من أقوى الحركات في اللعبة.",
-          "tag": "حركة خاصة",
-          "nameEn": "Spinning Piledriver",
-          "fields": {
-            "الإدخال": "دوران كامل للعصا بالقرب من الخصم"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "zangief",
-              "label": "زانغيف"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        },
-        {
-          "id": "yoga-fire",
-          "name": "نار اليوغا",
-          "icon": "🔥",
-          "summary": "كرة نار يطلقها دالسيم.",
-          "description": "يطلق دالسيم كرة نار من فمه.",
-          "tag": "حركة خاصة",
-          "nameEn": "Yoga Fire",
-          "links": [
-            {
-              "section": "heroes",
-              "id": "dhalsim",
-              "label": "دالسيم"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "tiger-shot",
-          "name": "هجمة النمر",
-          "icon": "🐯",
-          "summary": "كرة طاقة يطلقها ساغات.",
-          "description": "هجوم ساغات على مسافتين (علوية وسفلية) مع ضربة صاعدة قوية.",
-          "tag": "حركة خاصة",
-          "nameEn": "Tiger Shot",
-          "links": [
-            {
-              "section": "enemies",
-              "id": "sagat",
-              "label": "ساغات"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "psycho-crusher",
-          "name": "سايكو كراشر",
-          "icon": "💜",
-          "summary": "هجوم بيسون المدمر.",
-          "description": "اندفاع محاط بالطاقة النفسية يستعمله إم بيسون.",
-          "tag": "حركة خاصة",
-          "nameEn": "Psycho Crusher",
-          "links": [
-            {
-              "section": "enemies",
-              "id": "bison",
-              "label": "إم بيسون"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        }
-      ]
-    },
-    "stages": {
-      "title": "المراحل",
-      "icon": "🗺️",
-      "color": "#2ecc71",
-      "intro": "ساحة لكل مقاتل وزعيم.",
-      "items": [
-        {
-          "id": "japan-ryu",
-          "name": "اليابان (ريو)",
-          "icon": "🏯",
-          "summary": "قلعة يابانية قديمة.",
-          "description": "ساحة ريو في اليابان بخلفية قلعة تقليدية.",
-          "tag": "مرحلة",
-          "nameEn": "Japan",
-          "fields": {
-            "المقاتل": "ريو"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "ryu",
-              "label": "ريو"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tokyo-Japan-2020_0019_%2849460847651%29.jpg/960px-Tokyo-Japan-2020_0019_%2849460847651%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "imageSource": "commons:File:Tokyo-Japan-2020 0019 (49460847651).jpg"
-        },
-        {
-          "id": "usa-ken",
-          "name": "أمريكا (كين)",
-          "icon": "🛥️",
-          "summary": "مرحلة ثرية على الساحل الأمريكي.",
-          "description": "ساحة كين في الولايات المتحدة.",
-          "tag": "مرحلة",
-          "nameEn": "USA",
-          "fields": {
-            "المقاتل": "كين"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "ken",
-              "label": "كين"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "china",
-          "name": "الصين (تشون لي)",
-          "icon": "🏮",
-          "summary": "شارع صيني مزدحم.",
-          "description": "ساحة تشون لي وسط سوق صيني.",
-          "tag": "مرحلة",
-          "nameEn": "China",
-          "fields": {
-            "المقاتلة": "تشون لي"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "chun-li",
-              "label": "تشون لي"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "usa-guile",
-          "name": "أمريكا (غايل)",
-          "icon": "✈️",
-          "summary": "قاعدة جوية.",
-          "description": "ساحة غايل على قاعدة سلاح الجو الأمريكي.",
-          "tag": "مرحلة",
-          "nameEn": "USA Air Base",
-          "fields": {
-            "المقاتل": "غايل"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "guile",
-              "label": "غايل"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        },
-        {
-          "id": "brazil",
-          "name": "البرازيل (بلانكا)",
-          "icon": "🌳",
-          "summary": "نهر الأمازون.",
-          "description": "ساحة بلانكا في غابات البرازيل.",
-          "tag": "مرحلة",
-          "nameEn": "Brazil",
-          "fields": {
-            "المقاتل": "بلانكا"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "blanka",
-              "label": "بلانكا"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "japan-honda",
-          "name": "اليابان (هوندا)",
-          "icon": "♨️",
-          "summary": "حمّام ياباني.",
-          "description": "ساحة إي هوندا في حمّام تقليدي.",
-          "tag": "مرحلة",
-          "nameEn": "Bathhouse",
-          "fields": {
-            "المقاتل": "إي هوندا"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "honda",
-              "label": "إي هوندا"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "ussr",
-          "name": "الاتحاد السوفيتي (زانغيف)",
-          "icon": "🏭",
-          "summary": "مصنع.",
-          "description": "ساحة زانغيف في مصنع سوفيتي.",
-          "tag": "مرحلة",
-          "nameEn": "USSR",
-          "fields": {
-            "المقاتل": "زانغيف"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "zangief",
-              "label": "زانغيف"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        },
-        {
-          "id": "india",
-          "name": "الهند (دالسيم)",
-          "icon": "🐘",
-          "summary": "معبد بالفيلة.",
-          "description": "ساحة دالسيم في الهند.",
-          "tag": "مرحلة",
-          "nameEn": "India",
-          "fields": {
-            "المقاتل": "دالسيم"
-          },
-          "links": [
-            {
-              "section": "heroes",
-              "id": "dhalsim",
-              "label": "دالسيم"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "vegas",
-          "name": "لاس فيغاس (بالروغ)",
-          "icon": "🎰",
-          "summary": "كازينو.",
-          "description": "مرحلة الزعيم الأول في لاس فيغاس.",
-          "tag": "مرحلة الزعماء",
-          "nameEn": "Las Vegas",
-          "fields": {
-            "الزعيم": "بالروغ"
-          },
-          "links": [
-            {
-              "section": "enemies",
-              "id": "balrog",
-              "label": "بالروغ"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
-        },
-        {
-          "id": "spain",
-          "name": "إسبانيا (فيغا)",
-          "icon": "💃",
-          "summary": "ملهى إسباني.",
-          "description": "مرحلة فيغا في إسبانيا.",
-          "tag": "مرحلة الزعماء",
-          "nameEn": "Spain",
-          "fields": {
-            "الزعيم": "فيغا"
-          },
-          "links": [
-            {
-              "section": "enemies",
-              "id": "vega",
-              "label": "فيغا"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
-        },
-        {
-          "id": "thailand-sagat",
-          "name": "تايلاند (ساغات)",
-          "icon": "🛕",
-          "summary": "معبد.",
-          "description": "مرحلة ساغات في تايلاند.",
-          "tag": "مرحلة الزعماء",
-          "nameEn": "Thailand",
-          "fields": {
-            "الزعيم": "ساغات"
-          },
-          "links": [
-            {
-              "section": "enemies",
-              "id": "sagat",
-              "label": "ساغات"
-            }
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
-        },
-        {
-          "id": "thailand-bison",
-          "name": "تايلاند (إم بيسون)",
-          "icon": "🏰",
-          "summary": "قاعدة شادالو.",
-          "description": "المرحلة النهائية مع زعيم شادالو.",
-          "tag": "المرحلة الأخيرة",
-          "nameEn": "Shadaloo Base",
-          "fields": {
-            "الزعيم": "إم بيسون"
-          },
-          "links": [
-            {
-              "section": "enemies",
-              "id": "bison",
-              "label": "إم بيسون"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
+          ]
         }
       ]
     },
     "enemies": {
-      "title": "الزعماء",
-      "icon": "👹",
-      "color": "#9b59b6",
-      "intro": "الزعماء الأربعة بقيادة بيسون.",
+      "title": "الزعماء الأربعة الكبار",
+      "icon": "👑",
+      "color": "#c0392b",
+      "intro": "أقوى أربعة مقاتلين في منظمة شادالو الإجرامية، ينتظرون الفائز في نهاية البطولة في معارك حاسمة.",
       "items": [
         {
           "id": "balrog",
-          "name": "بالروغ",
+          "name": "بالروغ (بوكسر / مايك بايسون في اليابان)",
+          "nameEn": "Balrog (M. Bison in Japan)",
           "icon": "🥊",
-          "summary": "ملاكم قوي، أول الزعماء الأربعة.",
-          "description": "زعيم ملاكم ينتمي إلى شادالو. (في النسخة اليابانية تُبدَّل أسماء الزعماء الثلاثة بين بالروغ وفيغا وإم بيسون.)",
-          "tag": "زعيم",
-          "nameEn": "Balrog",
-          "fields": {
-            "البلد": "أمريكا",
-            "الدور": "ملاكم"
+          "role": "ملاكم لكمات قاطعة واندفاع كاسح (Heavy Rusher)",
+          "tag": "الزعيم الأول · الملاكم المعاقب",
+          "summary": "بطل ملاكمة أمريكي طُرد من حلبات الملاكمة الاحترافية لوحشيته المفرطة، ليعمل حارساً شخصياً لدى شادالو.",
+          "description": "بالروغ هو أول الزعماء الأربعة الذين تواجههم بعد هزيمة المقاتلين الثمانية. لا يستخدم الركلات مطلقاً، لكنه يعوض ذلك بأقوى لكمات مستقيمة وخطافية في اللعبة. يندفع نحوك بحركة داش ستريت (Dash Straight) وداش أبر (Dash Upper) التي تصدم الخصوم وتكسر دفاعاتهم، ولكماته القريبة قادرة على إفقادك الوعي (Dizzy) في ثوانٍ معدودة.",
+          "image": "images/street-fighter-2/char-balrog.png",
+          "specialAttack": "Dash Straight & Dash Upper (اللكمة الاندفاعية)",
+          "stats": {
+            "power": "لكمات ساحقة ومدمرة (4.8/5)",
+            "speed": "اندفاع خاطف للأمام (4/5)",
+            "defense": "صلب في المواجهة المباشرة (4/5)",
+            "difficulty": "زعيم شرس ومفاجئ (3.5/5)"
           },
+          "fields": {
+            "البلد": "الولايات المتحدة الأمريكية (Las Vegas)",
+            "أسلوب القتال": "الملاكمة الأمريكية العنيفة للوزن الثقيل",
+            "أشهر الحركات": "Dash Straight، Dash Upper، Buffalo Headbutt",
+            "المرحلة الخاصة": "كازينو غولدن ناغت في لاس فيغاس (Las Vegas Strip)",
+            "الاسم في النسخة اليابانية": "M. Bison (مستوحى من مايك تايسون)"
+          },
+          "tips": [
+            "قف في وضعية الدفاع المنخفض واجعله يندفع بلكمته، ثم عاقبه بهجمة سريعة فور ارتداده.",
+            "بالروغ ضعيف نسبياً ضد كرات الطاقة البعيدة لأنه لا يمتلك أي مقذوف ناري.",
+            "احذر من الوقوف أمامه بدون دفاع، فلكماته الخطافية تسبب إغماءً فورياً."
+          ],
           "links": [
             {
               "section": "stages",
               "id": "vegas",
-              "label": "لاس فيغاس"
+              "label": "كازينو لاس فيغاس"
+            },
+            {
+              "section": "secrets",
+              "id": "names",
+              "label": "سر تبديل الأسماء"
             }
-          ],
-          "wiki": "Balrog_(Street_Fighter)",
-          "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Balrog_%28Street_Fighter%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Balrog (Street Fighter)"
+          ]
         },
         {
           "id": "vega",
-          "name": "فيغا",
-          "icon": "🦅",
-          "summary": "مقاتل مخلب إسباني.",
-          "description": "زعيم رشيق يستعمل مخلباً وقناعاً، وأسلوبه سريع القفز.",
-          "tag": "زعيم",
-          "nameEn": "Vega",
-          "fields": {
-            "البلد": "إسبانيا"
+          "name": "فيغا (المخلب / بالروغ في اليابان)",
+          "nameEn": "Vega (Balrog in Japan)",
+          "icon": "🎭",
+          "role": "نينجا بهلواني جوي وسرعة خارقة (Agile Acrobat)",
+          "tag": "الزعيم الثاني · نينجا قفص مصارعة الثيران",
+          "summary": "نبيل إسباني نرجسي يقاتل بقناع حديدي ومخلب فولاذي حاد، يجمع بين مصارعة الثيران وفن النينجوتسو.",
+          "description": "فيغا هو الزعيم الثاني وأكثرهم رشاقة وسرعة. يرتدي قناعاً لحماية وجهه الوسيم من أي خدش ويحمل مخلباً ثلاثياً فتاكاً. في مرحلته الخاصة بإسبانيا، يتسلق القبا والقفص الحديدي ثم ينقض من سقف الحلبة بحركة فلاينغ برشلونة (Flying Barcelona Attack) وحركة إيزونا دروب (Izuna Drop) التي تسحق الخصم أرضاً.",
+          "image": "images/street-fighter-2/char-vega.png",
+          "specialAttack": "Flying Barcelona Attack & Izuna Drop (الهجوم الجوي)",
+          "stats": {
+            "power": "طعنات سريعة وقاطعة (4/5)",
+            "speed": "أسرع شخصية في اللعبة (5/5)",
+            "defense": "رشيق وقناعه ومخلبه قابلان للسقوط (3/5)",
+            "difficulty": "سريع وخادع في الجو (4/5)"
           },
+          "fields": {
+            "البلد": "إسبانيا (Spain)",
+            "أسلوب القتال": "المصارعة الإسبانية المدمجة مع النينجوتسو القاتل",
+            "أشهر الحركات": "Flying Barcelona Attack، Izuna Drop، Rolling Sobat",
+            "المرحلة الخاصة": "حانة قفص مصارعة الثيران (Mesón de la Taberna Cage)",
+            "الاسم في النسخة اليابانية": "Balrog"
+          },
+          "tips": [
+            "عندما يقفز فيغا إلى قفص الجدار، تحرك فوراً أسفله أو ابتعد للجهة المقابلة لتفادي انقضاضه الجوي.",
+            "إذا وجهت له ضربات قوية متتالية، سيسقط مخلبه الحديدي أرضاً مما يقلص مدى هجماته بشكل كبير!",
+            "ضربة الشوريوكين أو الفلاش كيك هي العلاج الأفضل لإسقاطه فور اقترابه من الجو."
+          ],
           "links": [
             {
               "section": "stages",
               "id": "spain",
-              "label": "إسبانيا"
+              "label": "قفص مصارعة الثيران"
+            },
+            {
+              "section": "secrets",
+              "id": "names",
+              "label": "سر تبديل الأسماء"
             }
-          ],
-          "wiki": "Vega_(Street_Fighter)",
-          "image": "https://upload.wikimedia.org/wikipedia/en/4/45/SSFVega.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:Vega (Street Fighter)"
+          ]
         },
         {
           "id": "sagat",
-          "name": "ساغات",
-          "icon": "🐯",
-          "summary": "ملك المواي تاي ذو الندبة.",
-          "description": "ساغات ملك المواي تاي في تايلاند. في القصة الأصلية، الندبة على صدره سببها ريو.",
-          "tag": "زعيم",
-          "nameEn": "Sagat",
+          "name": "ساغات (إمبراطور المواي تاي)",
+          "nameEn": "Sagat (Emperor of Muay Thai)",
+          "icon": "🐅",
+          "role": "قاذف ناري ومدفعي بعيد المدى (Heavy Zoner)",
+          "tag": "الزعيم الثالث · عملاق الملاكمة التايلاندية",
+          "summary": "العملاق التايلاندي الذي يبلغ طوله أكثر من مترين، يحمل ندبة عملاقة على صدره تركها ريو في البطولة الأولى.",
+          "description": "ساغات هو بطل النسخة الأولى من ستريت فايتر وأحد أقوى الزعماء في تاريخ السلسلة. بفضل طول قامته الهائل، يغطي مدى خرافياً بضرباته. يمتلك قذيفة تايغر شوت المزدوجة (Tiger Shot علوية وسفلية) التي تحاصر الخصم كلياً وتمنعه من الزحف أو القفز، بالإضافة إلى تايغر أبركات (Tiger Uppercut) الصاعدة المدمرة التي تمزق أي هجوم جوي.",
+          "image": "images/street-fighter-2/char-sagat.png",
+          "specialAttack": "Tiger Shot & Tiger Uppercut (مدفعية النمر)",
+          "stats": {
+            "power": "قوة تدميرية خارقة (4.8/5)",
+            "speed": "طويل المدى وثابت (3.5/5)",
+            "defense": "مدفعية دفاعية حصينة (4.5/5)",
+            "difficulty": "صعب جداً ويتطلب توقيتاً دقيقاً (4.5/5)"
+          },
           "fields": {
-            "البلد": "تايلاند"
+            "البلد": "تايلاند (Thailand)",
+            "اللقب": "إمبراطور المواي تاي (Emperor of Muay Thai)",
+            "أسلوب القتال": "المواي تاي (الملاكمة التايلاندية الأصيلة)",
+            "أشهر الحركات": "High Tiger Shot، Low Tiger Shot، Tiger Uppercut، Tiger Knee",
+            "المرحلة الخاصة": "أطلال أيوثايا وبوذا المتكئ (Ayutthaya Ruined Temple)",
+            "الندبة": "ندبة صدره الضخمة سببها شوريوكين ريو في نهاية ستريت فايتر 1"
           },
           "tips": [
-            "ابتعد عن كرات النمر وتقدم بحذر."
+            "التفرقة بين التايغر شوت العلوي والسفلي حاسمة: فالعلوي يمكنك الانحناء تحته، بينما السفلي يجب القفز فوقه أو صده.",
+            "لا تقفز عليه من مسافة متوسطة أبداً، لأن التايغر أبركات ستصيدك فوراً في الهواء.",
+            "انتظر حتى يطلق تايغر شوت سفلي واقفز فوقه في نفس اللحظة بضربة قوية لبدء هجوم مرتد."
           ],
           "links": [
             {
               "section": "weapons",
               "id": "tiger-shot",
-              "label": "هجمة النمر"
+              "label": "تايغر شوت"
+            },
+            {
+              "section": "weapons",
+              "id": "tiger-uppercut",
+              "label": "تايغر أبركات"
             },
             {
               "section": "stages",
               "id": "thailand-sagat",
-              "label": "تايلاند"
+              "label": "أطلال أيوثايا"
+            },
+            {
+              "section": "secrets",
+              "id": "scar",
+              "label": "سر ندبة ساغات"
             }
-          ],
-          "wiki": "Sagat",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
+          ]
         },
         {
           "id": "bison",
-          "name": "إم بيسون",
-          "icon": "🔴",
-          "summary": "زعيم شادالو والعدو الأخير.",
-          "description": "القائد الشرير لمنظمة شادالو ومستضيف البطولة، ويستخدم الطاقة النفسية.",
-          "tag": "الزعيم الأخير",
-          "nameEn": "M. Bison",
-          "fields": {
-            "الدور": "زعيم شادالو"
+          "name": "إم. بايسون (الديكتاتور / فيغا في اليابان)",
+          "nameEn": "M. Bison (Vega in Japan)",
+          "icon": "💀",
+          "role": "طاغية الطاقة النفسية (Psycho Power Master)",
+          "tag": "الزعيم النهائي · سيد منظمة شادالو العالمية",
+          "summary": "القائد العام لمنظمة شادالو الإجرامية، طاغية مستبد يتحكم بطاقة السايكو باور الخارقة ويسعى للهيمنة على العالم.",
+          "description": "إم. بايسون هو الزعيم النهائي للعبة وأحد أعظم أشرار تاريخ الألعاب. يرتدي زياً عسكرياً أحمر وقبعة رسمية، ويتحكم بطاقة نفسية زرقاء ونارية (Psycho Power). هجماته تعتبر الأسرع والأكثر عدوانية: حركة سايكو كراشر (Psycho Crusher) التي تحوله إلى قذيفة نارية دوارة تعبر الشاشة كاملة وتلتهم الصحة حتى عبر الدفاع، وحركة ركلة المقص (Scissor Kick) السريعة التي تضغط الخصم في الزاوية، بالإضافة إلى قفزة الهيد بريس (Head Press) المباغتة من فوق الرأس.",
+          "image": "images/street-fighter-2/char-bison.png",
+          "specialAttack": "Psycho Crusher & Scissor Kick (سايكو كراشر)",
+          "stats": {
+            "power": "قوة شيطانية خارقة (5/5)",
+            "speed": "اندفاع نفاث وسرعة مذهلة (5/5)",
+            "defense": "ضغط مستمر وهجوم ساحق (4.5/5)",
+            "difficulty": "الزعيم النهائي الأصعب في اللعبة (5/5)"
           },
+          "fields": {
+            "البلد": "مجهول (المقر السري في تايلاند)",
+            "المنظمة": "الزعيم الأعلى لمنظمة شادالو (Shadaloo)",
+            "مصدر القوة": "السايكو باور (Psycho Power) المستمدة من الشر الخالص",
+            "أشهر الحركات": "Psycho Crusher، Scissor Kick (Double Knee Press)، Head Press",
+            "المرحلة الخاصة": "معبد شادالو والجرس البوذي (Shadaloo Temple Bell)",
+            "الاسم في النسخة اليابانية": "Vega"
+          },
+          "tips": [
+            "عندما يندفع بايسون بحركة سايكو كراشر، احرص على الدفاع الخلفي المستمر، ولا تحاول القفز فوقها لأن نطاق نارها ضخم جداً.",
+            "بعد أن ينتهي من تنفيذ حركة Scissor Kick (ركلة المقص)، سيكون هناك تأخير زمني بسيط يمكن خلاله الإمساك به أو ضربه بحركة سريعة.",
+            "حركة الفلاش كيك لجايل أو الشوريوكين لريو وكين قادرة على إيقاف قفزة الهيد بريس إذا تم توقيتها بدقة عند نزوله."
+          ],
           "links": [
             {
               "section": "weapons",
@@ -829,196 +626,677 @@
               "label": "سايكو كراشر"
             },
             {
+              "section": "weapons",
+              "id": "scissor-kick",
+              "label": "ركلة المقص"
+            },
+            {
               "section": "stages",
               "id": "thailand-bison",
-              "label": "قاعدة شادالو"
+              "label": "معبد شادالو"
+            },
+            {
+              "section": "story",
+              "id": "ending-guile",
+              "label": "مصير بايسون"
             }
-          ],
-          "wiki": "M._Bison",
-          "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Bison_%28Super_Street_Fighter_II%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "wiki:M. Bison"
+          ]
+        }
+      ]
+    },
+    "weapons": {
+      "title": "الحركات الخاصة وطريقة تنفيذها",
+      "icon": "⚡",
+      "color": "#e67e22",
+      "intro": "دليل إدخالات أذرع التحكم والأزرار لتنفيذ أعظم الحركات الخاصة في تاريخ ألعاب القتال.",
+      "items": [
+        {
+          "id": "hadoken",
+          "name": "هادوكين (موجة قبضة الطاقة المتدفقة)",
+          "nameEn": "Hadoken (Surge Fist Wave)",
+          "icon": "🔵",
+          "character": "ريو وكين ماسترز",
+          "tag": "قذيفة طاقة بعيدة المدى",
+          "summary": "أشهر حركة خاصة في تاريخ ألعاب الفيديو، تطلق كرة طاقة روحية تندفع أفقياً لضرب الخصم.",
+          "description": "يقوم المقاتل بسحب يديه للخلف وتركيز طاقة الكي الداخلية في قبضتيه ثم إطلاقها للأمام كموجة كروية زرقاء متوهجة. تستخدم للسيطرة على وتيرة المعركة وإجبار الخصم على القفز.",
+          "image": "images/street-fighter-2/move-hadoken.png",
+          "fields": {
+            "المستخدمون": "ريو وكين ماسترز",
+            "أمر التنفيذ": "⬇ ↘ ➡ + لكمة (Down, Down-Forward, Forward + Punch)",
+            "السرعة": "تعتمد على زر اللكمة (الخفيفة بطيئة، القوية سريعة)",
+            "الهدف التكتيكي": "السيطرة على مساحة الشاشة وإبعاد الخصم"
+          },
+          "tips": [
+            "استخدم اللكمة الخفيفة لإطلاق كرة طاقة بطيئة والركض خلفها لمهاجمة الخصم المشتت.",
+            "احذر من إطلاقها والخصم قريب منك جداً، حتى لا يتعرض لركود بعد الحركة (Recovery Frames)."
+          ]
+        },
+        {
+          "id": "shoryuken",
+          "name": "شوريوكين (لكمة التنين الصاعدة)",
+          "nameEn": "Shoryuken (Rising Dragon Punch)",
+          "icon": "🐉",
+          "character": "ريو وكين ماسترز",
+          "tag": "مضاد جوي لا يقهر",
+          "summary": "لكمة صاعدة خارقة تدور في الهواء وتطيح بأي خصم يقفز أو يقترب من المقاتل مع مناعة مؤقتة.",
+          "description": "يقفز المقاتل بحركة لولبية للأعلى موجهاً لكمة فتاكة تدمر أي هجمة جوية. تمتلك الشوريوكين إطارات مناعة كاملة في بداية الانطلاق مما يجعلها تتغلب على جميع الهجمات الأخرى.",
+          "image": "images/street-fighter-2/move-shoryuken.png",
+          "fields": {
+            "المستخدمون": "ريو وكين ماسترز (كين أكثر اندفاعاً واشتعالاً)",
+            "أمر التنفيذ": "➡ ⬇ ↘ + لكمة (Forward, Down, Down-Forward + Punch)",
+            "الخاصية": "مناعة لا تقهر في بداية الحركة (Invincible Startup)",
+            "الاستخدام الأساسي": "مضاد جوي ومعاقبة الحركات بعد صدها"
+          },
+          "tips": [
+            "تدرب على حركة الـ Z بعصا التحكم (أمام ثم أسفل ثم مائل للأمام) حتى تتقنها في أجزاء من الثانية.",
+            "إذا أخطأت في توقيت الشوريوكين وصدها الخصم، ستكون معلقاً في الهواء عرضة لأقوى عقاب، لذا استخدمها بحكمة."
+          ]
+        },
+        {
+          "id": "tatsumaki",
+          "name": "تاتسوماكي سنبوكياكو (ركلة الإعصار)",
+          "nameEn": "Tatsumaki Senpukyaku (Hurricane Kick)",
+          "icon": "🌪️",
+          "character": "ريو وكين ماسترز",
+          "tag": "هجوم دوراني عابر للشاشة",
+          "summary": "يقفز المقاتل ويدور بركلات سريعة كالإعصار في الهواء ليعبر الشاشة ويضرب الخصم عدة ضربات متتالية.",
+          "description": "حركة عبور سريعة تتجاوز المسافات الأرضية ويمكن تنفيذها على الأرض أو في الهواء (في الإصدارات المتقدمة). ركلات كين تتسبب في ضربات متعددة بينما ركلة ريو تسقط الخصم بضربة واحدة قاضية.",
+          "image": "images/street-fighter-2/move-tatsumaki.png",
+          "fields": {
+            "المستخدمون": "ريو وكين ماسترز",
+            "أمر التنفيذ": "⬇ ↙ ⬅ + ركلة (Down, Down-Back, Back + Kick)",
+            "الاستخدام": "تجاوز المقذوفات واختصار المسافات"
+          },
+          "tips": [
+            "يمكن لركلة الإعصار المرور فوق بعض كرات الطاقة المنخفضة إذا نفذت في التوقيت المناسب.",
+            "تعتبر وسيلة رائعة للهروب عندما يحاصرك الخصم في زاوية الحلبة."
+          ]
+        },
+        {
+          "id": "sonic-boom",
+          "name": "سونيك بوم (الانفجار الصوتي)",
+          "nameEn": "Sonic Boom",
+          "icon": "💥",
+          "character": "جايل",
+          "tag": "قذيفة هوائية بشحن خلفي",
+          "summary": "يقوم جايل بقطع الهواء بيديه بسرعة تفوق سرعة الصوت ليطلق شفرة طاقة هوائية حارقة.",
+          "description": "أسرع قذيفة طاقة من حيث وقت التعافي (Recovery) في اللعبة. تتيح لجايل إطلاق الشفرة والتحرك على الفور للهجوم أو الدفاع قبل أن تصل القذيفة إلى الخصم.",
+          "image": "images/street-fighter-2/char-guile.png",
+          "fields": {
+            "المستخدم": "جايل (Guile)",
+            "أمر التنفيذ": "شحن للخلف ثانية واحدة ثم ➡ + لكمة (Charge Back 1 sec, Forward + Punch)",
+            "الميزة": "أسرع استعادة للوضعية الطبيعية في اللعبة"
+          },
+          "tips": [
+            "احتفظ بالعصا مائلة للخلف ولأسفل أثناء جلوسك لتشحن السونيك بوم والفلاش كيك في نفس اللحظة."
+          ]
+        },
+        {
+          "id": "flash-kick",
+          "name": "فلاش كيك / ركلة الشقلبة (Somersault Kick)",
+          "nameEn": "Flash Kick (Somersault Kick)",
+          "icon": "⚡",
+          "character": "جايل",
+          "tag": "مضاد جوي شاحن لا يقهر",
+          "summary": "شقلبة بهلوانية خلفية بركلة مقوسة تقطع الخصم في الهواء كالنصل الحاد.",
+          "description": "تعتبر أقوى مضاد جوي على الإطلاق عند استخدام أسلوب الدفاع والشحن. إذا قفز الخصم فوق السونيك بوم، تنطلق الفلاش كيك لتقضي عليه تماماً مع مناعة لحظية.",
+          "image": "images/street-fighter-2/guile-sprite.png",
+          "fields": {
+            "المستخدم": "جايل (Guile)",
+            "أمر التنفيذ": "شحن لأسفل ثانية واحدة ثم ⬆ + ركلة (Charge Down 1 sec, Up + Kick)",
+            "الخاصية": "مناعة لحظية ومدى قوسي واسع جداً"
+          },
+          "tips": [
+            "لا تنهض من الجلوس قبل تنفيذ الحركة، بل اضغط لأعلى والزر معاً لتفادي ضياع الشحن."
+          ]
+        },
+        {
+          "id": "lightning",
+          "name": "هياكوريتسو كياكو (ركلة البرق المتتابعة)",
+          "nameEn": "Hyakuretsukyaku (Lightning Kick)",
+          "icon": "⚡",
+          "character": "تشون لي",
+          "tag": "وابل ركلات متتالية",
+          "summary": "تقف تشون لي على ساق واحدة بينما تطلق الأخرى عشرات الركلات الخاطفة كالبرق.",
+          "description": "واحدة من أمتع الحركات في اللعبة، تمنع الخصم من الاقتراب وتحدث ضرراً كبيراً حتى مع صدها.",
+          "image": "images/street-fighter-2/char-chunli.png",
+          "fields": {
+            "المستخدمة": "تشون لي (Chun-Li)",
+            "أمر التنفيذ": "الضغط المتكرر السريع على زر الركلة (Mash any Kick button)",
+            "الاستخدام": "تثبيت الخصم وإلحاق الضرر بالدفاع"
+          },
+          "tips": [
+            "استعمل أصابعك للنقر السريع على زر الركلة الخفيفة لتفعيلها بأقل مجهود ممكن."
+          ]
+        },
+        {
+          "id": "spinning-bird",
+          "name": "سبينينغ بيرد كيك (ركلة الطائر الدوارة)",
+          "nameEn": "Spinning Bird Kick",
+          "icon": "🦅",
+          "character": "تشون لي",
+          "tag": "دوران مروحي مقلوب في الهواء",
+          "summary": "تنقلب تشون لي رأساً على عقب وتفتح ساقيها كالمروحة وتطير أفقياً لتضرب الخصم عدة مرات.",
+          "description": "حركة عبور جوية تمكنها من الهجوم فوق رؤوس الأعداء وتفادي محاصرتهم الأرضية.",
+          "image": "images/street-fighter-2/char-chunli.png",
+          "fields": {
+            "المستخدمة": "تشون لي (Chun-Li)",
+            "أمر التنفيذ": "شحن لأسفل ثانية واحدة ثم ⬆ + ركلة (Charge Down, Up + Kick)"
+          },
+          "tips": [
+            "تجنب استخدامها ضد ريو أو ساغات وهم مستعدون، لأنهم قد يسقطونها بضربة صاعدة."
+          ]
+        },
+        {
+          "id": "electric",
+          "name": "إلكتريك ثاندر (الصعق الكهربائي الشامل)",
+          "nameEn": "Electric Thunder",
+          "icon": "⚡",
+          "character": "بلانكا",
+          "tag": "هالة صعق كهربائية دفاعية",
+          "summary": "يجثو بلانكا على ركبتيه ويطلق تياراً كهربائياً عالي الضغط يغطي كامل محيط جسده.",
+          "description": "أقوى درع دفاعي ضد هجمات الإمساك والاندفاع، تصعق أي خصم يلمس بلانكا.",
+          "image": "images/street-fighter-2/char-blanka.png",
+          "fields": {
+            "المستخدم": "بلانكا (Blanka)",
+            "أمر التنفيذ": "الضغط المتكرر السريع على زر اللكمة (Mash any Punch button)"
+          },
+          "tips": [
+            "ممتازة لإيقاف قفزات الخصوم إذا تم تفعيلها مبكراً قبل هبوطهم."
+          ]
+        },
+        {
+          "id": "rolling-attack",
+          "name": "رولينغ أتاك (الهجوم الدوار المتدحرج)",
+          "nameEn": "Rolling Attack",
+          "icon": "🌀",
+          "character": "بلانكا",
+          "tag": "اندفاع قذيفة بشرية سريعة",
+          "summary": "يتكور بلانكا كالكرة الحديدية ويندفع بسرعة الرصاصة ليصدم الخصم ويرتد للخلف.",
+          "description": "هجوم مباغت يقطع مسافات طويلة في أجزاء من الثانية ويسبب ضرراً كبيراً.",
+          "image": "images/street-fighter-2/char-blanka.png",
+          "fields": {
+            "المستخدم": "بلانكا (Blanka)",
+            "أمر التنفيذ": "شحن للخلف ثم ➡ + لكمة (Charge Back, Forward + Punch)"
+          },
+          "tips": [
+            "نسخة اللكمة الخفيفة تتوقف قبل الخصم، مما يمكنك من رميه فور وقوفك!"
+          ]
+        },
+        {
+          "id": "hundred-hand",
+          "name": "هياكوريتسو باري (صفعة المئة يد الخاطفة)",
+          "nameEn": "Hundred Hand Slap",
+          "icon": "✋",
+          "character": "إدموند هوندا",
+          "tag": "جدار صفعات متتالية ساحقة",
+          "summary": "يطلق إدموند هوندا وابلاً مرعباً من الصفعات السريعة بكلتا يديه كالإعصار.",
+          "description": "حركة سومو تقليدية تبتلع أي هجوم يقترب وتلحق ضرراً هائلاً حتى أثناء الدفاع.",
+          "image": "images/street-fighter-2/char-honda.png",
+          "fields": {
+            "المستخدم": "إدموند هوندا (E. Honda)",
+            "أمر التنفيذ": "الضغط المتكرر السريع على زر اللكمة (Mash any Punch button)"
+          },
+          "tips": [
+            "احشر الخصم في زاوية الشاشة ونفذ الصفعة لإنقاص شريط صحته حتى لو كان يدافع بالكامل."
+          ]
+        },
+        {
+          "id": "piledriver",
+          "name": "سبينينغ بايلدرايفر (السحق الدوراني 360)",
+          "nameEn": "Spinning Piledriver (SPD)",
+          "icon": "🌪️",
+          "character": "زانغيف",
+          "tag": "أقوى رمية ساحقة في اللعبة",
+          "summary": "يمسك زانغيف بالخصم ويقفز به عالياً في السماء ثم يدور ويهوي برأسه في الأرض بقوة زلزالية.",
+          "description": "الرمية الأكثر رعباً وشهرة في تاريخ ألعاب القتال، لا يمكن صدها وتلتهم ثلث صحة الخصم.",
+          "image": "images/street-fighter-2/char-zangief.png",
+          "fields": {
+            "المستخدم": "زانغيف (Zangief)",
+            "أمر التنفيذ": "دوران كامل 360 درجة بعصا التحكم + لكمة (Full 360° rotation + Punch near opponent)",
+            "الخاصية": "رمية لا يمكن صدها نهائياً (Unblockable Command Grab)"
+          },
+          "tips": [
+            "قم بتدوير العصا أثناء قفزك باتجاه الخصم واضغط اللكمة فور ملامستك للأرض لتفادي القفز غير المرغوب."
+          ]
+        },
+        {
+          "id": "yoga-fire",
+          "name": "يوغا فاير (كرة اللهب الروحية)",
+          "nameEn": "Yoga Fire",
+          "icon": "🔥",
+          "character": "دالسيم",
+          "tag": "قذيفة لهب روحية",
+          "summary": "ينفث دالسيم كرة نارية روحية تندفع أفقياً نحو الخصم لإبقائه بعيداً.",
+          "description": "قذيفة نارية تكتيكية تساعد دالسيم في الحفاظ على المسافة واستدراج الخصم للقفز.",
+          "image": "images/street-fighter-2/move-fireball.png",
+          "fields": {
+            "المستخدم": "دالسيم (Dhalsim)",
+            "أمر التنفيذ": "⬇ ↘ ➡ + لكمة (Down, Down-Forward, Forward + Punch)"
+          },
+          "tips": [
+            "أطلق يوغا فاير ثم جهز ذراعك الطويلة لضرب الخصم عندما يحاول القفز فوقها."
+          ]
+        },
+        {
+          "id": "psycho-crusher",
+          "name": "سايكو كراشر (الهجوم النفسي الناري)",
+          "nameEn": "Psycho Crusher",
+          "icon": "💀",
+          "character": "إم. بايسون",
+          "tag": "الهجوم النهائي للديكتاتور",
+          "summary": "يحيط بايسون جسده بالسايكو باور الزرقاء المشتعلة ويندفع كالطوربيد عبر الشاشة بأكملها.",
+          "description": "الهجوم الأيقوني للزعيم النهائي بايسون، يلتهم الصحة بشكل مخيف حتى لو كنت تدافع بالكامل.",
+          "image": "images/street-fighter-2/char-bison.png",
+          "fields": {
+            "المستخدم": "إم. بايسون (M. Bison)",
+            "أمر التنفيذ": "شحن للخلف ثم ➡ + لكمة (Charge Back, Forward + Punch)"
+          },
+          "tips": [
+            "اثبت في وضعية الدفاع عند رؤيته يندفع، فالقفز فوقه قد يعرضك للنيران المحيطة بجسده."
+          ]
+        }
+      ]
+    },
+    "stages": {
+      "title": "حلبات القتال والمراحل",
+      "icon": "🌍",
+      "color": "#27ae60",
+      "intro": "12 حلبة قتال أسطورية تمثل بلدان العالم المختلفة، بالإضافة إلى مراحل المكافأة التفاعلية.",
+      "items": [
+        {
+          "id": "japan-ryu",
+          "name": "قلعة سوزاكو - اليابان (مرحلة ريو)",
+          "nameEn": "Suzaku Castle (Japan - Ryu's Stage)",
+          "icon": "🏯",
+          "tag": "اليابان · قلعة الساموراي",
+          "summary": "سطح قلعة سوزاكو التاريخية المغطاة بالقرميد الياباني التقليدي، مع قمر بدري ساطع ولافتات الرياح.",
+          "description": "المرحلة الأكثر شهرة في تاريخ السلسلة، تدور على سطح قلعة ساموراي يابانية عريقة مع خلفية الغروب والسماء الهادئة، وألواح خشبية يمكن تكسيرها عند سقوط المقاتل عليها.",
+          "image": "images/street-fighter-2/stage-japan-ryu.png",
+          "fields": {
+            "الموقع": "اليابان (Suzaku Castle)",
+            "صاحب الحلبة": "ريو",
+            "الموسيقى": "لحن ريو الحماسي الأسطوري (Ryu's Theme)"
+          }
+        },
+        {
+          "id": "usa-ken",
+          "name": "ميناء سان فرانسيسكو - أمريكا (مرحلة كين)",
+          "nameEn": "Battle Harbor (USA - Ken's Stage)",
+          "icon": "🚢",
+          "tag": "أمريكا · ميناء السفن",
+          "summary": "رصيف بحري في خليج سان فرانسيسكو ترسو أمامه سفينة شحن عملاقة مع متفرجين يهتفون للمقاتلين.",
+          "description": "مرحلة مفعمة بالحيوية تدور على رصيف الميناء مع براميل يمكن تحطيمها، وسفينة شحن فاخرة يلوح منها البحارة والمشجعون خلف أنغام موسيقى الروك الصاخبة.",
+          "image": "images/street-fighter-2/stage-usa-ken.png",
+          "fields": {
+            "الموقع": "سان فرانسيسكو، كاليفورنيا، الولايات المتحدة",
+            "صاحب الحلبة": "كين ماسترز",
+            "الموسيقى": "لحن كين الروك الشهير (Ken's Theme)"
+          }
+        },
+        {
+          "id": "china",
+          "name": "شارع السلام في شنغهاي - الصين (مرحلة تشون لي)",
+          "nameEn": "Peace Road, Shanghai (China - Chun-Li's Stage)",
+          "icon": "🏮",
+          "tag": "الصين · سوق شنغهاي الشعبي",
+          "summary": "شارع شعبي صيني تقليدي مزدحم بالدراجات والمحلات والمطاعم الشعبية وسكان يشاهدون النزال بذهول.",
+          "description": "تجسيد رائع لأزقة الصين في أوائل التسعينات، حيث يقف بائعو اللحوم والخضار والمارة بالدراجات يتابعون ركلات تشون لي الخارقة وسط ألوان زاهية وروح نابضة بالحياة.",
+          "image": "images/street-fighter-2/stage-china.png",
+          "fields": {
+            "الموقع": "شنغهاي، الصين",
+            "صاحبة الحلبة": "تشون لي",
+            "الموسيقى": "اللحن الصيني الإيقاعي السريع (Chun-Li's Theme)"
+          }
+        },
+        {
+          "id": "usa-guile",
+          "name": "قاعدة سلاح الجو الأمريكي (مرحلة جايل)",
+          "nameEn": "USAF Air Base (USA - Guile's Stage)",
+          "icon": "✈️",
+          "tag": "أمريكا · قاعدة الطيران الحربي",
+          "summary": "مدرج طيران عسكري مع طائرة مقاتلة نفاثة وجنود أمريكيون يهتفون لزميلهم جايل.",
+          "description": "حلبة عسكرية أيقونية تحتوي على مقاتلة حربية نفاثة في الخلفية وصناديق ذخيرة، مع جنود يرتدون الزي العسكري ويشجعون بحماس خلف موسيقى جايل التي تلائم كل شيء في الحياة!",
+          "image": "images/street-fighter-2/stage-usa-guile.png",
+          "fields": {
+            "الموقع": "قاعدة جوية أمريكية",
+            "صاحب الحلبة": "جايل",
+            "الموسيقى": "لحن جايل الأسطوري الخالد (Guile's Theme)"
+          }
+        },
+        {
+          "id": "brazil",
+          "name": "حوض نهر الأمازون - البرازيل (مرحلة بلانكا)",
+          "nameEn": "Amazon River Basin (Brazil - Blanka's Stage)",
+          "icon": "🌴",
+          "tag": "البرازيل · غابات الأمازون",
+          "summary": "كوخ خشبي على ضفاف نهر الأمازون تلتف حول شجرته أفعى أناكوندا عملاقة وسكان محليون يتابعون القتال.",
+          "description": "بيئة استوائية خلابة في قلب الأدغال، تظهر أفعى الأناكوندا وهي تترقب القتال من الشجرة، مع متفرجين يرتدون قبعات القش وسفن تجديف صغيرة تعبر النهر.",
+          "image": "images/street-fighter-2/stage-brazil.png",
+          "fields": {
+            "الموقع": "غابات الأمازون، البرازيل",
+            "صاحب الحلبة": "بلانكا",
+            "الموسيقى": "لحن السامبا الاستوائي (Blanka's Theme)"
+          }
+        },
+        {
+          "id": "japan-honda",
+          "name": "حمام إيدو الساخن - اليابان (مرحلة هوندا)",
+          "nameEn": "Edo Hot Springs Bathhouse (Japan - E. Honda's Stage)",
+          "icon": "♨️",
+          "tag": "اليابان · حمام السومو التقليدي",
+          "summary": "حمام ياباني تقليدي (أونسن) تزينه جدارية ضخمة لجبل فوجي والشمس المشرقة مع حوض ماء ساخن في الوسط.",
+          "description": "حلبة يابانية كلاسيكية تعكس ثقافة السومو وحمامات الاسترخاء التقليدية في طوكيو، مع بخار يتصاعد من الحوض وفوانيس يابانية معلقة في السقف.",
+          "image": "images/street-fighter-2/stage-japan-honda.png",
+          "fields": {
+            "الموقع": "طوكيو، اليابان",
+            "صاحب الحلبة": "إدموند هوندا",
+            "الموسيقى": "لحن الفلكلور الياباني التقليدي (Honda's Theme)"
+          }
+        },
+        {
+          "id": "ussr",
+          "name": "مصنع صهر المعادن - الاتحاد السوفيتي (مرحلة زانغيف)",
+          "nameEn": "Factory Blast Furnace (USSR - Zangief's Stage)",
+          "icon": "🏭",
+          "tag": "الاتحاد السوفيتي · مسبك الصلب",
+          "summary": "مصنع صهر معادن صناعي ضخم تتطاير منه الشرر مع عمال سوفيت يشربون ويهتفون لعملاقهم زانغيف.",
+          "description": "أجواء صناعية ثقيلة تفيض بالحرارة والصلب في العهد السوفيتي، مع خطافات صناعية تتدلى من السقف وحرارة أفران الصهر التي تعكس قوة زانغيف الجبارة.",
+          "image": "images/street-fighter-2/stage-ussr.png",
+          "fields": {
+            "الموقع": "نوفوسيبيرسك، الاتحاد السوفيتي",
+            "صاحب الحلبة": "زانغيف",
+            "الموسيقى": "لحن الدب السوفيتي القوي (Zangief's Theme)"
+          }
+        },
+        {
+          "id": "india",
+          "name": "قصر المهراجا - الهند (مرحلة دالسيم)",
+          "nameEn": "Maharajah's Palace (India - Dhalsim's Stage)",
+          "icon": "🐘",
+          "tag": "الهند · قصر الأفيال الملكية",
+          "summary": "قاعة قصر هندي ملكي تقف على جانبيها ستة أفيال ملكية تزأر وترفع خراطيمها مع كل ضربة تسقط المقاتل.",
+          "description": "حلبة روحانية فاخرة تنبض بالثقافة الهندية، مع سجاد مزخرف وأعمدة رخامية، وتفاعل طريف من الأفيال التي تصدر أصواتاً مع كل ضربة حاسمة.",
+          "image": "images/street-fighter-2/stage-india.png",
+          "fields": {
+            "الموقع": "الهند (Kerala / Rajasthan)",
+            "صاحب الحلبة": "دالسيم",
+            "الموسيقى": "اللحن السيتار الهندي الروحاني (Dhalsim's Theme)"
+          }
+        },
+        {
+          "id": "vegas",
+          "name": "كازينو غولدن ناغت في لاس فيغاس (مرحلة بالروغ)",
+          "nameEn": "Golden Nugget Casino, Las Vegas (USA - Balrog's Stage)",
+          "icon": "🎰",
+          "tag": "أمريكا · كازينو لاس فيغاس",
+          "summary": "شارع الكازينوهات اللامع بأنوار النيون والفتيات وحراس الأمن في عاصمة الترفيه الأمريكية.",
+          "description": "المرحلة الأولى من مواجهات الزعماء، تعكس بريق وفساد عالم القمار والملاكمة غير الشرعية مع لوحات إعلانات ضخمة وأضواء نيون براقة.",
+          "image": "images/street-fighter-2/stage-vegas.png",
+          "fields": {
+            "الموقع": "لاس فيغاس، نيفادا، الولايات المتحدة",
+            "الزعيم": "بالروغ (Balrog)",
+            "الموسيقى": "لحن الجاز والملاكمة الأمريكي (Balrog's Theme)"
+          }
+        },
+        {
+          "id": "spain",
+          "name": "حانة الفلامنكو وقفص المصارعة - إسبانيا (مرحلة فيغا)",
+          "nameEn": "Mesón de la Taberna Cage (Spain - Vega's Stage)",
+          "icon": "🌹",
+          "tag": "إسبانيا · قفص مصارعة الثيران",
+          "summary": "حانة إسبانية تقليدية تتوسطها حلبة مصارعة داخل قفص حديدي مع عازفي غيتار الفلامنكو وراقصات حسناوات.",
+          "description": "مرحلة فريدة واستثنائية تمكن الزعيم فيغا من تسلق القفص الحديدي والتعلق بالسقف قبل الانقضاض الجوي الساحق على الخصم.",
+          "image": "images/street-fighter-2/stage-spain.png",
+          "fields": {
+            "الموقع": "إسبانيا (Barcelona / Madrid)",
+            "الزعيم": "فيغا (Vega)",
+            "الموسيقى": "لحن الفلامنكو والغيتار الإسباني العاطفي (Vega's Theme)"
+          }
+        },
+        {
+          "id": "thailand-sagat",
+          "name": "أطلال أيوثايا وبوذا المتكئ - تايلاند (مرحلة ساغات)",
+          "nameEn": "Ayutthaya Ruins (Thailand - Sagat's Stage)",
+          "icon": "🗿",
+          "tag": "تايلاند · المعبد الأثري",
+          "summary": "معبد تاريخي عريق في تايلاند يستلقي في خلفيته تمثال بوذا الحجري العملاق المتكئ وسط أشجار النخيل والسماء الغائمة.",
+          "description": "حلبة مهيبة تعكس كبرياء وقوة ساغات إمبراطور المواي تاي، حيث يمتد تمثال بوذا الضخم كشاهد صامت على المعارك الملحمية.",
+          "image": "images/street-fighter-2/stage-thailand-sagat.png",
+          "fields": {
+            "الموقع": "أيوثايا، تايلاند",
+            "الزعيم": "ساغات (Sagat)",
+            "الموسيقى": "لحن المواي تاي الملحمي المهيب (Sagat's Theme)"
+          }
+        },
+        {
+          "id": "thailand-bison",
+          "name": "معبد شادالو والجرس البوذي - تايلاند (مرحلة بايسون)",
+          "nameEn": "Shadaloo Temple Bell (Thailand - M. Bison's Stage)",
+          "icon": "🔔",
+          "tag": "تايلاند · المعركة النهائية",
+          "summary": "قاعدة شادالو السرية المحاطة بالتماثيل البوذية الذهبية وجرس برونزي هائل يتأرجح في سماء المعركة المصيرية.",
+          "description": "الحلبة النهائية لمواجهة الديكتاتور إم. بايسون، حيث تقرر نتيجة النزال مصير العالم أجمع تحت سماء ملبدة بغيوم العاصفة.",
+          "image": "images/street-fighter-2/stage-thailand-bison.png",
+          "fields": {
+            "الموقع": "المقر السري لمنظمة شادالو في تايلاند",
+            "الزعيم": "إم. بايسون (M. Bison)",
+            "الموسيقى": "اللحن الأوركسترالي النهائي المرعب (Bison's Theme)"
+          }
+        },
+        {
+          "id": "bonus-car",
+          "name": "المرحلة الإضافية 1: تحطيم السيارة في الميناء",
+          "nameEn": "Bonus Stage 1: Destroy the Car",
+          "icon": "🚗",
+          "tag": "مرحلة بونوس · سرعة وتدمير",
+          "summary": "سيارة سيدان فاخرة مركونة في رصيف الميناء، لديك مهلة زمنية قصيرة لتحطيمها بالكامل بضرباتك وركلاتك لجمع أقصى عدد من النقاط.",
+          "description": "أشهر مرحلة إضافية في تاريخ ألعاب القتال! ينهال اللاعب باللكمات والركلات على الأبواب، الزجاج، والسقف حتى تتحول السيارة إلى حطام كامل قبل نفاد الوقت.",
+          "image": "images/street-fighter-2/bonus-car.png",
+          "fields": {
+            "المطلوب": "تحطيم جميع أجزاء السيارة قبل نفاد العداد الزمني",
+            "المكافأة": "نقاط إضافية ضخمة (Bonus Points)"
+          }
+        },
+        {
+          "id": "bonus-barrels",
+          "name": "المرحلة الإضافية 2: تحطيم البراميل المتساقطة",
+          "nameEn": "Bonus Stage 2: Break the Falling Barrels",
+          "icon": "🛢️",
+          "tag": "مرحلة بونوس · دقة وتوقيت",
+          "summary": "براميل خشبية ثقيلة تتدحرج وتسقط من الأعلى، يجب عليك تحطيمها باللكمات الصاعدة والركلات قبل أن تصطدم بك وتسقطك أرضاً.",
+          "description": "اختبار رائع لردات الفعل وسرعة الاستجابة، حيث تتساقط البراميل بوتيرة متزايدة وتتطلب ضربات متقنة لتفجيرها في الهواء.",
+          "image": "images/street-fighter-2/bonus-barrels.png",
+          "fields": {
+            "المطلوب": "تكسير البراميل المتساقطة دون أن تتعثر",
+            "المكافأة": "نقاط إضافية وتعزيز تركيز اللاعب"
+          }
         }
       ]
     },
     "story": {
-      "title": "القصة",
+      "title": "قصة اللعبة ونهايات الأبطال",
       "icon": "📖",
       "color": "#f39c12",
-      "intro": "البطولة والمنظمة.",
+      "intro": "أسرار بطولة المحارب العالمي، مؤامرة منظمة شادالو، والمصير النهائي لكل بطل من الأبطال الثمانية.",
       "blocks": [
         {
           "icon": "🌍",
-          "title": "بطولة المحاربين",
-          "text": "يدعو منظمو بطولة قتال عالمية أقوى المقاتلين من أنحاء العالم، فيصل ثمانية محاربين لكل منهم سببه وأسلوبه."
+          "title": "بطولة المحارب العالمي الثانية (The World Warrior)",
+          "text": "أعلنت منظمة غامضة عن تنظيم النسخة الثانية من بطولة القتال العالمية، ووجهت دعوات خاصة لأقوى 8 مقاتلين في كوكب الأرض. كان الدافع الظاهري هو المجد والمال ولقب الأقوى عالمياً، لكن وراء الكواليس كانت تقف منظمة شادالو الإجرامية بقيادة الديكتاتور إم. بايسون، بهدف جمع بيانات قتالية عن أقوى المحاربين وتجنيدهم أو القضاء عليهم لتسهيل الهيمنة على العالم.",
+          "image": "images/street-fighter-2/character-select.png"
         },
         {
-          "icon": "🥊",
-          "title": "الزعماء الأربعة",
-          "text": "بعد هزيمة بقية المقاتلين، يواجه الفائز أربعة زعماء: بالروغ وفيغا وساغات، ثم قائد المنظمة إم بيسون."
+          "icon": "🥋",
+          "title": "نهاية ريو: الطريق الذي لا ينتهي",
+          "text": "بعد فوز ريو الساحق على بايسون وتتويجه كأقوى مقاتل في العالم، لم ينتظر حفل التتويج ولا تسلم الجائزة النقدية! بل حزم حقيبته وربط عصبة رأسه الحمراء ومضى في طريقه وحيداً نحو الأفق البعيد، باحثاً عن خصوم جدد ومواصلة رحلته الروحية لفهم المعنى الحقيقي للمحارب الحقيقي.",
+          "image": "images/street-fighter-2/ending-ryu.png"
         },
         {
-          "icon": "🔴",
-          "title": "منظمة شادالو",
-          "text": "وراء البطولة منظمة شادالو بقيادة إم بيسون، الذي يخطط لاستعمال المقاتلين لأهدافه."
+          "icon": "🏆",
+          "title": "نهاية كين: التتويج وحفل الزفاف الأسطوري",
+          "text": "بعد فوزه بالبطولة، عاد كين ماسترز منتصراً إلى الولايات المتحدة، حيث استقبلته حبيبته إليزا بالدموع والفرح. وبدلاً من مواصلة القتال، قرر كين الزواج من إليزا والبدء في بناء عائلة سعيدة، مع بقاء صداقته وغريمه ريو محفورة في وجدانه إلى الأبد.",
+          "image": "images/street-fighter-2/ending-ken.png"
+        },
+        {
+          "icon": "🌸",
+          "title": "نهاية تشون لي: دمعة سلام وابتسامة فتاة شابة",
+          "text": "بعد إسقاطها لبايسون وتفكيك إمبراطورية شادالو الشريرة، زارت تشون لي قبر والدها المحقق دوراي لتبلغه بأن العدالة قد تحققت أخيراً وروحه قد ارتاحت بسلام. ثم خلعت زي القتال وارتدت ثياباً مدنية أنيقة، لتعود لعيش حياة طبيعية كفتاة شابة مليئة بالأمل.",
+          "image": "images/street-fighter-2/ending-chunli.png"
+        },
+        {
+          "icon": "🎖️",
+          "title": "نهاية جايل: العودة إلى دفء العائلة والوطن",
+          "text": "يقف جايل موجهاً ضربته القاضية لبايسون الساقط للثأر لرفيقه تشارلي ناش، لكن في تلك اللحظة تظهر زوجته جين وابنته كريس وتتوسلان إليه ألا يقتل بايسون حتى لا يصبح قاتلاً مثله. يستعيد جايل إنسانيته ويدرك أن حماية عائلته هي أسمى واجباته، ويعود معهما إلى المنزل بسلام.",
+          "image": "images/street-fighter-2/ending-guile.png"
+        },
+        {
+          "icon": "💚",
+          "title": "نهاية بلانكا: اللقاء المؤثر مع الأم المفقودة",
+          "text": "أثناء احتفال بلانكا بفوزه بالبطولة على شاشات التلفاز العالمية، تشاهد سيدة برازيلية قلادته في عنقه وتتعرف على طفلها المفقود جيمي منذ تحطم الطائرة قبل سنوات! تهرع الأم إلى الحلبة وتحتضن بلانكا في مشهد مؤثر أعاد الوحش الأخضر إلى أحضان أمه وعائلته الحقيقية.",
+          "image": "images/street-fighter-2/ending-blanka.png"
+        },
+        {
+          "icon": "🌊",
+          "title": "نهاية إدموند هوندا: نشر فن السومو في أرجاء العالم",
+          "text": "أثبت هوندا تفوق السومو الياباني على كافة الفنون القتالية، واصطحب تلاميذه حول العالم لافتتاح حلبات سومو وإطعام الفقراء وجبات التشانكونابي الشهية، ليصبح سفيراً عالمياً لثقافة وروح اليابان الرياضية.",
+          "image": "images/street-fighter-2/ending-honda.png"
+        },
+        {
+          "icon": "🪆",
+          "title": "نهاية زانغيف: رقصة الكوزاك الاحتفالية في الكرملين",
+          "text": "عاد زانغيف إلى موسكو بطلاً قومياً، حيث استقبله الرئيس السوفيتي ميخائيل غورباتشوف شخصياً في قاعة الكرملين وهنأه على رفع راية بلاده، وانضم كلاهما مع حراس الأمن في رقصة الكوزاك السوفيتية الشهيرة وسط تصفيق الجميع!",
+          "image": "images/street-fighter-2/ending-zangief.png"
+        },
+        {
+          "icon": "📿",
+          "title": "نهاية دالسيم: عودة الحكيم والعيش بسلام في الهند",
+          "text": "أخذ دالسيم أموال الجائزة واستخدمها لإنقاذ قريته وبناء الآبار والمدارس، ثم عاد إلى كوخه الهادئ على ضفاف نهر الغانج برفقة زوجته سالي وابنه داتاف، وتفرغ لتعليم الأجيال القادمة مبادئ السلام واليوغا والتأمل.",
+          "image": "images/street-fighter-2/ending-dhalsim.png"
         }
       ]
     },
     "info": {
-      "title": "معلومات إضافية",
-      "icon": "ℹ️",
-      "color": "#1abc9c",
-      "intro": "البطاقة والنسخ والتأثير.",
+      "title": "معلومات وتاريخ اللعبة",
+      "icon": "📋",
+      "color": "#3498db",
+      "intro": "حقائق موثقة وتاريخ التطوير للتحفة التي غيرت صناعة ألعاب الفيديو للأبد.",
       "items": [
         {
           "id": "dev",
-          "name": "بطاقة اللعبة",
-          "icon": "📋",
-          "summary": "Capcom وCPS-1 وسنة 1991.",
-          "description": "لعبة قتال من Capcom على لوحة CPS-1. تضم ثمانية مقاتلين قابلين للاختيار وأربعة زعماء، وأزرار ستة (3 لكمات و3 ركلات).",
-          "tag": "معلومة",
-          "nameEn": "Game Card",
+          "name": "بطاقة اللعبة التقنية",
+          "icon": "⚙️",
+          "tag": "مواصفات اللعبة",
+          "summary": "لوحة CPS-1، فريق تطوير بقيادة يوشيكي أوكاموتو وأكيرا نيشيتاني وتصميم أكيرا ياسودا (أكيمان).",
+          "description": "صدرت اللعبة في فبراير 1991 على لوحة أركيد Capcom CP System (CPS-1) بمعالج Motorola 68000 بسرعة 10 ميغاهرتز. كانت ثورة تقنية في دقة الرسوم ثنائية الأبعاد وسرعة الاستجابة وأزرار التحكم الستة.",
+          "image": "images/street-fighter-2/sf2-logo.png",
           "fields": {
-            "المطور": "Capcom",
-            "المنصة": "CPS-1",
-            "السنة": "1991",
-            "الأزرار": "6",
-            "المقاتلون": "8 + 4 زعماء"
-          },
-          "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Street_Fighter_game_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-          "imageSource": "search:Street Fighter (video game)"
+            "المطور والناشر": "Capcom (كابكوم)",
+            "اللوحة الأم": "Capcom Play System 1 (CPS-1)",
+            "سنة الإصدار": "فبراير 1991",
+            "المخرج والمصمم": "Yoshiki Okamoto و Akira Nishitani",
+            "كبير الرسامين": "Akira Yasuda (Akiman)",
+            "الموسيقى": "Yoko Shimomura (يوكو شيمومورا)"
+          }
         },
         {
           "id": "versions",
-          "name": "النسخ اللاحقة",
+          "name": "إصدارات وتحديثات السلسلة",
           "icon": "🔁",
-          "summary": "Champion Edition وHyper Fighting وSuper وSuper Turbo.",
-          "description": "صدرت بعد النسخة الأصلية عدة تحسينات، منها Champion Edition وHyper Fighting وSuper Street Fighter II وSuper Turbo.",
-          "tag": "معلومة",
-          "nameEn": "Versions",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
+          "tag": "تاريخ الإصدارات",
+          "summary": "من The World Warrior إلى Champion Edition وHyper Fighting وSuper Street Fighter II Turbo.",
+          "description": "أطلقت كابكوم عدة نسخ محدثة من اللعبة استجابة لطلبات اللاعبين في صالات الأركيد: نسخة Champion Edition (1992) التي أتاحت اللعب بالزعماء الأربعة واختيار نفس المقاتل، ثم Hyper Fighting التي زادت سرعة اللعب وأضافت حركات جديدة، ثم Super Turbo التي قدمت حركات السوبر (Super Combos) وظهور أكوما (Akuma).",
+          "image": "images/street-fighter-2/character-select.png"
         },
         {
           "id": "impact",
-          "name": "تأثير اللعبة",
+          "name": "التأثير العالمي والظاهرة الثقافية",
           "icon": "🌟",
-          "summary": "غيّرت عالم ألعاب القتال.",
-          "description": "من الألعاب التي أطلقت موجة ألعاب القتال في الصالات، وما زالت تُلعب في البطولات.",
-          "tag": "معلومة",
-          "nameEn": "Impact",
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
+          "tag": "الأثر التاريخي",
+          "summary": "أنقذت صالات الأركيد في التسعينات وأسست ثقافة بطولات الرياضات الإلكترونية الحديثة (EVO).",
+          "description": "حققت اللعبة أرباحاً تجاوزت 10 مليارات دولار عبر تاريخها، واعتبرت الظاهرة الترفيهية الأبرز في أوائل التسعينات، حيث غيرت مفهوم المنافسة بين اللاعبين وجهاً لوجه ووضعت حجر الأساس لمجتمع ألعاب القتال التنافسي (FGC).",
+          "image": "images/street-fighter-2/title-screen.png"
         }
       ]
     },
     "howto": {
-      "title": "طريقة اللعب وأين تجدها",
-      "icon": "🎮",
-      "color": "#f1c40f",
-      "intro": "التحكم والنصائح والإصدارات.",
+      "title": "طريقة اللعب والتحكم الاحترافي",
+      "icon": "🕹️",
+      "color": "#2ecc71",
+      "intro": "إتقان نظام الأزرار الستة، أسرار الشحن، وتكنيك إلغاء الضربات (Canceling).",
       "items": [
         {
           "id": "controls",
-          "name": "أزرار التحكم",
-          "icon": "🕹️",
-          "summary": "عصا وستة أزرار.",
-          "description": "ثلاثة أزرار للكمات (خفيفة ومتوسطة وقوية) وثلاثة للركلات. الحركات الخاصة تُنفَّذ بإدخالات حركة العصا.",
-          "tag": "التحكم",
-          "nameEn": "Controls",
+          "name": "نظام الأزرار الستة الكلاسيكي",
+          "icon": "🎮",
+          "tag": "أساسيات التحكم",
+          "summary": "عصا تحكم ثمانية الاتجاهات و6 أزرار (3 للكمات و3 للركلات متدرجة القوة والسرعة).",
+          "description": "تستخدم ستريت فايتر 2 نظاماً عبقرياً: اللكمات (خفيفة LP، متوسطة MP، ثقيلة HP) والركلات (خفيفة LK، متوسطة MK، ثقيلة HK). اللكمات الخفيفة سريعة جداً وتصلح لبدء سلاسل الضربات، بينما الثقيلة تسبب ضرراً جسيماً ولكنها تتطلب توقيتاً دقيقاً.",
+          "image": "images/street-fighter-2/char-grid.png",
           "fields": {
-            "اللكمات": "3",
-            "الركلات": "3"
-          },
-          "tips": [
-            "تعلّم الإدخالات في وضع التدريب."
-          ],
-          "links": [
-            {
-              "section": "weapons",
-              "id": "hadoken",
-              "label": "هادوكين"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
+            "زر LP / LK": "خفيف وسريع جداً (Light / Jab)",
+            "زر MP / MK": "متوسط القوة والمدى (Medium / Strong)",
+            "زر HP / HK": "قوي ومدمر وبطيء الاستعادة (Heavy / Fierce)"
+          }
         },
         {
-          "id": "tips",
-          "name": "نصائح للمبتدئين",
-          "icon": "💡",
-          "summary": "ابدأ بريو أو غايل.",
-          "description": "تعلّم الدفاع قبل الهجوم، وراقب مسافتك، ولا تكرر الحركة نفسها.",
-          "tag": "نصائح",
-          "nameEn": "Tips",
+          "id": "canceling",
+          "name": "سر إلغاء الضربات والكومبو (Special Canceling)",
+          "icon": "⚡",
+          "tag": "احتراف الكومبو",
+          "summary": "اكتشاف ثوري غير مقصود في برمجة اللعبة تحول إلى أساس جميع سلاسل الكومبو في العالم.",
+          "description": "أثناء تطوير اللعبة، سمح المبرمجون بإلغاء حركة استعادة اللكمة العادية وتنفيذ الحركة الخاصة على الفور. هذا الخطأ البرمجي تحول إلى ميزة الكومبو الخالدة: مثل تنفيذ لكمة جلوس متوسطة لريو ثم إدخال هادوكين فوراً لتتصل الضربتان دون أن يتمكن الخصم من الدفاع!",
+          "image": "images/street-fighter-2/world-map.png",
           "tips": [
-            "الدفاع مهم قدر الهجوم.",
-            "لا تقفز كثيراً."
-          ],
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
+            "تدرب على إدخال حركة الهادوكين أثناء تنفيذك للكمة الجلوس المتوسطة وليس بعدها.",
+            "استغل الكومبو لإنقاص نصف صحة الخصم وضمان عدم تعرضك لأي هجوم مرتد."
+          ]
         },
         {
           "id": "where",
-          "name": "أين أجد اللعبة؟",
+          "name": "أين وكيف تلعبها اليوم؟",
           "icon": "📍",
-          "summary": "على كثير من المنصات.",
-          "description": "توجد اللعبة ضمن مجموعات وإصدارات حديثة مثل Street Fighter 30th Anniversary Collection وUltra Street Fighter II على Switch. (تحقق من توفرها في متجر منصتك حالياً.)",
-          "tag": "مكان اللعب",
-          "nameEn": "Where to play",
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
+          "tag": "منصات اللعب الحديثة",
+          "summary": "متوفرة على كافة الأجهزة الحديثة عبر Street Fighter 30th Anniversary Collection وCapcom Arcade Stadium.",
+          "description": "يمكنك تجربة النسخة الأصلية للأركيد بكامل ميزاتها ورسومها الأصلية عبر منصات PlayStation، Xbox، Nintendo Switch، وPC عبر مجموعة Capcom Arcade Stadium، بالإضافة إلى منصة Fightcade الشهيرة للعب التنافسي عبر الإنترنت بتقنية Rollback Netcode.",
+          "image": "images/street-fighter-2/title-screen.png"
         }
       ]
     },
     "secrets": {
       "title": "أسرار ومعلومات نادرة",
-      "icon": "🔐",
-      "color": "#ff3d7f",
-      "intro": "أسرار جانبية.",
+      "icon": "🤫",
+      "color": "#9b59b6",
+      "intro": "حقائق مذهلة عن اللعبة لم يكن يعرفها سوى محترفي الصالات.",
       "items": [
         {
-          "id": "bonus",
-          "name": "مراحل المكافأة",
-          "icon": "🚗",
-          "summary": "مراحل لتحطيم سيارة وبراميل.",
-          "description": "في اللعبة مراحل مكافأة تحطم فيها سيارة وبراميل وأهدافاً أخرى لجمع نقاط إضافية.",
-          "tag": "سر",
-          "nameEn": "Bonus Stages",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
+          "id": "names",
+          "name": "لغز تبديل أسماء الزعماء بين اليابان والغرب",
+          "icon": "🔁",
+          "tag": "سر تاريخي",
+          "summary": "خوفاً من ملاحقة الملاكم مايك تايسون القضائية، قامت كابكوم بتبديل أسماء ثلاثة زعماء بالكامل!",
+          "description": "في النسخة اليابانية الأصلية: كان اسم الملاكم هو (M. Bison) تيمناً بمايك تايسون، وكان اسم الإسباني ذو المخلب هو (Balrog)، بينما كان الديكتاتور النهائي هو (Vega). وعند تصدير اللعبة لأمريكا خشيت كابكوم من دعوى قضائية من تايسون، فقامت بتدوير الأسماء: أصبح الملاكم Balrog، وأصبح الإسباني Vega، وأصبح الديكتاتور النهائي M. Bison!",
+          "image": "images/street-fighter-2/char-grid.png"
         },
         {
-          "id": "names",
-          "name": "تبديل أسماء الزعماء",
-          "icon": "🔁",
-          "summary": "الأسماء مختلفة في اليابان.",
-          "description": "في النسخة اليابانية تبدَّل أسماء بالروغ وفيغا وإم بيسون بينها، لذلك قد تجد اختلافاً في الأسماء بين النسخ.",
-          "tag": "معلومة نادرة",
-          "nameEn": "Name swap",
-          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
+          "id": "bonus-trick",
+          "name": "حيلة تدمير السيارة في 5 ثوانٍ",
+          "icon": "🚗",
+          "tag": "أسرار مراحل المكافأة",
+          "summary": "استخدام حركات التكرار السريع مثل صفعة هوندا أو ركلة تشون لي لتفجير السيارة في ثوانٍ معدودة.",
+          "description": "إذا اخترت إدموند هوندا أو تشون لي أو بلانكا في مرحلة السيارة، قف بجانب الباب واضغط بسرعة جنونية على زر اللكمة أو الركلة، وستلاحظ أن السيارة تدمر بالكامل في أقل من 5 ثوانٍ محققاً النقاط الكاملة دون عناء!",
+          "image": "images/street-fighter-2/bonus-car.png"
         },
         {
           "id": "scar",
-          "name": "ندبة ساغات",
-          "icon": "🩹",
-          "summary": "من قصة السلسلة.",
-          "description": "في القصة الأصلية، ندبة صدر ساغات سببها ضربة شوريوكين من ريو.",
-          "tag": "معلومة نادرة",
-          "nameEn": "Sagat's scar",
-          "links": [
-            {
-              "section": "enemies",
-              "id": "sagat",
-              "label": "ساغات"
-            }
-          ],
-          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
+          "name": "سر الندبة العميقة على صدر ساغات",
+          "icon": "🐅",
+          "tag": "أسرار القصة",
+          "summary": "الندبة العملاقة لم تكن علامة ولادة، بل جرح تركته قبضة التنين الصاعدة لريو في ستريت فايتر 1.",
+          "description": "في نهاية بطولة ستريت فايتر الأولى عام 1987، كان ساغات على وشك الفوز، لكن ريو استسلم مؤقتاً لطاقة الظلام الداخلية (Satsui no Hado) وأطلق شوريوكين يائسة شقت صدر العملاق ساغات من الكتف إلى الخصر، ومنذ ذلك اليوم وساغات يحترق رغبة في الانتقام وإعادة النزال مع ريو.",
+          "image": "images/street-fighter-2/stage-thailand-sagat.png"
         }
       ]
     }
-  },
-  "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-  "imageSource": "wiki:Street Fighter II"
+  }
 }
