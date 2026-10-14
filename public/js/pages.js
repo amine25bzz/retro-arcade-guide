@@ -22,7 +22,7 @@ export async function homePage(state = {}) {
   const cards = games.map((g) => {
     const open = g.hasGuide;
     return `<a class="gcard ${open ? '' : 'disabled'}" style="--c:${esc(g.color)}" href="${open ? `#/game/${g.id}` : '#/'}" ${open ? '' : 'data-soon="1"'}>
-      ${pic({ image: g.image, color: g.color, contain: true })}
+      ${pic({ image: g.image, wiki: g.wiki, query: g.title, color: g.color, contain: true })}
       <span class="badge">${esc(g.companyName)}</span>${open ? '<span class="guide-tag">دليل شامل ⭐</span>' : '<span class="soon">قريباً</span>'}
       <div class="body"><h3>${esc(g.titleAr)}</h3><span class="en">${esc(g.title)}</span>
       <div class="meta">${stars(g.rating)}<span>${esc(g.year)}</span></div></div></a>`;
@@ -56,7 +56,7 @@ export async function gamePage(id) {
   }).join('');
 
   return wrap(`${topbar(g.titleAr, '#/')}
-    <div class="ghero">${pic({ image: g.image, color: g.color, contain: true })}<div class="shade"></div>
+    <div class="ghero">${pic({ image: g.image, wiki: g.wiki, query: g.title, color: g.color, contain: true })}<div class="shade"></div>
       <div class="txt">
         <div class="en">${esc(g.title)}${g.titleJp ? ` · <span style="font-family:sans-serif;font-size:12px;opacity:0.85;">${esc(g.titleJp)}</span>` : ''}</div>
         <h1>${esc(g.titleAr)}</h1>
@@ -99,7 +99,7 @@ export async function sectionPage(id, key) {
       const typeBadge = it.ammo ? `ذخيرة: ${it.ammo}` : (it.tag || it.type || '');
       return `
       <a class="icard" style="--c:${esc(s.color || g.color)}" href="#/game/${id}/${key}/${it.id}">
-        ${pic({ image: it.image, color: s.color, contain: true })}
+        ${pic({ image: it.image, wiki: it.wiki, query: it.nameEn ? `${it.nameEn}|${g.title}` : '', color: s.color, contain: true })}
         <div class="b">
           <h3>${esc(it.name)}</h3>
           ${it.nameEn ? `<span class="en-sub">${esc(it.nameEn)}</span>` : ''}
@@ -226,7 +226,7 @@ export async function itemPage(id, key, itemId) {
 
   return wrap(`${topbar(it.name, `#/game/${id}/${key}`)}
     <div class="dhero">
-      ${pic({ image: it.image, color: s.color, contain: true })}
+      ${pic({ image: it.image, wiki: it.wiki, query: it.nameEn ? `${it.nameEn}|${g.title}` : '', color: s.color, contain: true })}
       <div>
         <h1>${esc(it.name)}</h1>
         ${it.nameEn ? `<div class="en">${esc(it.nameEn)}</div>` : ''}

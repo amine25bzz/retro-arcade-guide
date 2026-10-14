@@ -7,9 +7,11 @@ export function stars(rating = 0) {
 }
 
 // صندوق صورة نقي يعرض الصورة مباشرة بدون أي أيقونات أو تداخل
-export function pic({ image, color, contain = false, alt = '' }) {
-  if (!image) return '';
-  return `<div class="pic ${contain ? 'contain' : ''}" ${color ? `style="--c:${esc(color)}"` : ''}><img src="${esc(image)}" alt="${esc(alt)}" loading="lazy" onerror="this.style.display='none'"></div>`;
+export function pic({ image, wiki, query, color, contain = false, alt = '' }) {
+  const imgSrc = image || '';
+  if (!imgSrc && !wiki && !query) return '';
+  const attrs = imgSrc ? `src="${esc(imgSrc)}"` : `${wiki ? `data-wiki="${esc(wiki)}"` : ''} ${query ? `data-q="${esc(query)}"` : ''}`;
+  return `<div class="pic ${contain ? 'contain' : ''}" ${color ? `style="--c:${esc(color)}"` : ''}><img alt="${esc(alt)}" loading="lazy" ${attrs} onerror="this.style.display='none'"></div>`;
 }
 
 export function topbar(title, backHref) {

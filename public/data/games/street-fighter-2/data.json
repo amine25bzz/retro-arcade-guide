@@ -52,7 +52,9 @@
               "label": "مرحلة ريو"
             }
           ],
-          "wiki": "Ryu_(Street_Fighter)"
+          "wiki": "Ryu_(Street_Fighter)",
+          "image": "https://upload.wikimedia.org/wikipedia/en/5/50/RyuStreetFighterTwoHadoken.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Ryu (Street Fighter)"
         },
         {
           "id": "ken",
@@ -73,7 +75,9 @@
               "label": "ريو"
             }
           ],
-          "wiki": "Ken_Masters"
+          "wiki": "Ken_Masters",
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2f/Ken_Masters_%28SF3_-_Third_Strike%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Ken Masters"
         },
         {
           "id": "chun-li",
@@ -97,7 +101,9 @@
               "label": "ركلة البرق"
             }
           ],
-          "wiki": "Chun-Li"
+          "wiki": "Chun-Li",
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "guile",
@@ -126,7 +132,9 @@
               "label": "فلاش كيك"
             }
           ],
-          "wiki": "Guile_(Street_Fighter)"
+          "wiki": "Guile_(Street_Fighter)",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "blanka",
@@ -147,7 +155,9 @@
               "label": "الصعق الكهربائي"
             }
           ],
-          "wiki": "Blanka"
+          "wiki": "Blanka",
+          "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Super_Blanka.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Blanka"
         },
         {
           "id": "honda",
@@ -168,7 +178,9 @@
               "label": "مئة صفعة"
             }
           ],
-          "wiki": "E._Honda"
+          "wiki": "E._Honda",
+          "image": "https://upload.wikimedia.org/wikipedia/en/7/79/Edmondhonda.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:E. Honda"
         },
         {
           "id": "zangief",
@@ -192,7 +204,9 @@
               "label": "الدوامة"
             }
           ],
-          "wiki": "Zangief"
+          "wiki": "Zangief",
+          "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Super_Zangief.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Zangief"
         },
         {
           "id": "dhalsim",
@@ -213,7 +227,9 @@
               "label": "نار اليوغا"
             }
           ],
-          "wiki": "Dhalsim"
+          "wiki": "Dhalsim",
+          "image": "https://upload.wikimedia.org/wikipedia/en/0/04/Super_Dhalsim.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Dhalsim"
         }
       ]
     },
@@ -249,7 +265,9 @@
               "id": "ken",
               "label": "كين"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "shoryuken",
@@ -272,7 +290,9 @@
               "id": "ryu",
               "label": "ريو"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "sonic-boom",
@@ -291,7 +311,9 @@
               "id": "guile",
               "label": "غايل"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Sonic_CD_North_American_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "search:Sonic CD"
         },
         {
           "id": "flash-kick",
@@ -310,7 +332,9 @@
               "id": "guile",
               "label": "غايل"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "lightning",
@@ -329,7 +353,9 @@
               "id": "chun-li",
               "label": "تشون لي"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "game-article:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "electric",
@@ -345,7 +371,9 @@
               "id": "blanka",
               "label": "بلانكا"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "hundred-hand",
@@ -361,7 +389,9 @@
               "id": "honda",
               "label": "إي هوندا"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "piledriver",
@@ -380,7 +410,9 @@
               "id": "zangief",
               "label": "زانغيف"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "yoga-fire",
@@ -396,7 +428,9 @@
               "id": "dhalsim",
               "label": "دالسيم"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "tiger-shot",
@@ -412,7 +446,9 @@
               "id": "sagat",
               "label": "ساغات"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "psycho-crusher",
@@ -428,7 +464,9 @@
               "id": "bison",
               "label": "إم بيسون"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         }
       ]
     },
@@ -455,7 +493,9 @@
               "id": "ryu",
               "label": "ريو"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tokyo-Japan-2020_0019_%2849460847651%29.jpg/960px-Tokyo-Japan-2020_0019_%2849460847651%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageSource": "commons:File:Tokyo-Japan-2020 0019 (49460847651).jpg"
         },
         {
           "id": "usa-ken",
@@ -474,7 +514,9 @@
               "id": "ken",
               "label": "كين"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "china",
@@ -493,7 +535,9 @@
               "id": "chun-li",
               "label": "تشون لي"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "usa-guile",
@@ -512,7 +556,9 @@
               "id": "guile",
               "label": "غايل"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "brazil",
@@ -531,7 +577,9 @@
               "id": "blanka",
               "label": "بلانكا"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "japan-honda",
@@ -550,7 +598,9 @@
               "id": "honda",
               "label": "إي هوندا"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "ussr",
@@ -569,7 +619,9 @@
               "id": "zangief",
               "label": "زانغيف"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "india",
@@ -588,7 +640,9 @@
               "id": "dhalsim",
               "label": "دالسيم"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "vegas",
@@ -607,7 +661,9 @@
               "id": "balrog",
               "label": "بالروغ"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         },
         {
           "id": "spain",
@@ -626,7 +682,9 @@
               "id": "vega",
               "label": "فيغا"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "thailand-sagat",
@@ -645,7 +703,9 @@
               "id": "sagat",
               "label": "ساغات"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "thailand-bison",
@@ -664,7 +724,9 @@
               "id": "bison",
               "label": "إم بيسون"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         }
       ]
     },
@@ -693,7 +755,9 @@
               "label": "لاس فيغاس"
             }
           ],
-          "wiki": "Balrog_(Street_Fighter)"
+          "wiki": "Balrog_(Street_Fighter)",
+          "image": "https://upload.wikimedia.org/wikipedia/en/d/d5/Balrog_%28Street_Fighter%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Balrog (Street Fighter)"
         },
         {
           "id": "vega",
@@ -713,7 +777,9 @@
               "label": "إسبانيا"
             }
           ],
-          "wiki": "Vega_(Street_Fighter)"
+          "wiki": "Vega_(Street_Fighter)",
+          "image": "https://upload.wikimedia.org/wikipedia/en/4/45/SSFVega.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:Vega (Street Fighter)"
         },
         {
           "id": "sagat",
@@ -741,7 +807,9 @@
               "label": "تايلاند"
             }
           ],
-          "wiki": "Sagat"
+          "wiki": "Sagat",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "bison",
@@ -766,7 +834,9 @@
               "label": "قاعدة شادالو"
             }
           ],
-          "wiki": "M._Bison"
+          "wiki": "M._Bison",
+          "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Bison_%28Super_Street_Fighter_II%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "wiki:M. Bison"
         }
       ]
     },
@@ -813,7 +883,9 @@
             "السنة": "1991",
             "الأزرار": "6",
             "المقاتلون": "8 + 4 زعماء"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/6/6c/Street_Fighter_game_flyer.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "imageSource": "search:Street Fighter (video game)"
         },
         {
           "id": "versions",
@@ -822,7 +894,9 @@
           "summary": "Champion Edition وHyper Fighting وSuper وSuper Turbo.",
           "description": "صدرت بعد النسخة الأصلية عدة تحسينات، منها Champion Edition وHyper Fighting وSuper Street Fighter II وSuper Turbo.",
           "tag": "معلومة",
-          "nameEn": "Versions"
+          "nameEn": "Versions",
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "impact",
@@ -831,7 +905,9 @@
           "summary": "غيّرت عالم ألعاب القتال.",
           "description": "من الألعاب التي أطلقت موجة ألعاب القتال في الصالات، وما زالت تُلعب في البطولات.",
           "tag": "معلومة",
-          "nameEn": "Impact"
+          "nameEn": "Impact",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         }
       ]
     },
@@ -862,7 +938,9 @@
               "id": "hadoken",
               "label": "هادوكين"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "tips",
@@ -875,7 +953,9 @@
           "tips": [
             "الدفاع مهم قدر الهجوم.",
             "لا تقفز كثيراً."
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "where",
@@ -884,7 +964,9 @@
           "summary": "على كثير من المنصات.",
           "description": "توجد اللعبة ضمن مجموعات وإصدارات حديثة مثل Street Fighter 30th Anniversary Collection وUltra Street Fighter II على Switch. (تحقق من توفرها في متجر منصتك حالياً.)",
           "tag": "مكان اللعب",
-          "nameEn": "Where to play"
+          "nameEn": "Where to play",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         }
       ]
     },
@@ -901,7 +983,9 @@
           "summary": "مراحل لتحطيم سيارة وبراميل.",
           "description": "في اللعبة مراحل مكافأة تحطم فيها سيارة وبراميل وأهدافاً أخرى لجمع نقاط إضافية.",
           "tag": "سر",
-          "nameEn": "Bonus Stages"
+          "nameEn": "Bonus Stages",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Street_Fighter_II_arcade-20061027.jpg/800px-Street_Fighter_II_arcade-20061027.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_arcade-20061027.jpg"
         },
         {
           "id": "names",
@@ -910,7 +994,9 @@
           "summary": "الأسماء مختلفة في اليابان.",
           "description": "في النسخة اليابانية تبدَّل أسماء بالروغ وفيغا وإم بيسون بينها، لذلك قد تجد اختلافاً في الأسماء بين النسخ.",
           "tag": "معلومة نادرة",
-          "nameEn": "Name swap"
+          "nameEn": "Name swap",
+          "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:SF2_JPN_flyer.jpg"
         },
         {
           "id": "scar",
@@ -926,9 +1012,13 @@
               "id": "sagat",
               "label": "ساغات"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/800px-Street_Fighter_II_%28arcade%29_screenshot.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Street_Fighter_II_(arcade)_screenshot.png"
         }
       ]
     }
-  }
+  },
+  "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "imageSource": "wiki:Street Fighter II"
 }

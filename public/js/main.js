@@ -1,12 +1,6 @@
 import { hydrateImages } from './store.js';
 import { homePage, gamePage, sectionPage, itemPage, privacyPage, aboutPage, soonToast } from './pages.js';
 
-// تنظيف أي كاش قديم للصور من ويكيبيديا
-try {
-  Object.keys(localStorage).forEach((k) => {
-    if (k.startsWith('wk:') || k.startsWith('wq:')) localStorage.removeItem(k);
-  });
-} catch (_) {}
 
 const app = document.getElementById('app');
 const state = { company: 'all', q: '' };

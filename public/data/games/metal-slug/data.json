@@ -47,7 +47,9 @@
               "id": "slug",
               "label": "المدرعة SV-001"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Marco_Rossi-Doria_-_Festa_Unit%C3%A0_Roma_2012.JPG/960px-Marco_Rossi-Doria_-_Festa_Unit%C3%A0_Roma_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageSource": "commons:File:Marco Rossi-Doria - Festa Unità Roma 2012.JPG"
         },
         {
           "id": "tarma",
@@ -69,7 +71,9 @@
               "id": "controls",
               "label": "التحكم"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "eri",
@@ -81,7 +85,9 @@
           "nameEn": "Eri Kasamoto",
           "fields": {
             "أول ظهور": "Metal Slug 2"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "fio",
@@ -93,7 +99,9 @@
           "nameEn": "Fio Germi",
           "fields": {
             "أول ظهور": "Metal Slug 2"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         }
       ]
     },
@@ -116,7 +124,9 @@
           },
           "tips": [
             "اضغط الزر بسرعة وتحرك باستمرار."
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "grenade",
@@ -131,7 +141,9 @@
           },
           "tips": [
             "احتفظ بها للزعماء والمركبات."
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "hmg",
@@ -146,7 +158,9 @@
           },
           "tips": [
             "أطلق بإصبع ثابت وحرّك الشاشة."
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "shotgun",
@@ -158,7 +172,9 @@
           "nameEn": "Shotgun",
           "fields": {
             "الرمز": "S"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Brenneke_Slug-1.jpg/800px-Brenneke_Slug-1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "imageSource": "search:Shotgun slug"
         },
         {
           "id": "rocket",
@@ -170,7 +186,9 @@
           "nameEn": "Rocket Launcher",
           "fields": {
             "الرمز": "R"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/800px-Space_Shuttle_Columbia_launching.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "imageSource": "search:Solid-propellant rocket"
         },
         {
           "id": "flame",
@@ -182,7 +200,9 @@
           "nameEn": "Flame Shot",
           "fields": {
             "الرمز": "F"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "slug",
@@ -198,7 +218,9 @@
           },
           "tips": [
             "اقفز منها قبل تدميرها لتحتفظ بحياتك."
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "game-article:File:Metal_Slug_arcade_flyer.jpg"
         }
       ]
     },
@@ -218,7 +240,9 @@
           "nameEn": "Forests",
           "fields": {
             "عدد المهام": "6 مهام إجمالاً"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "cities",
@@ -227,7 +251,9 @@
           "summary": "قتال داخل مدن تحتلها قوات المتمردين.",
           "description": "مهام تدور في مدن محاطة بالتحصينات والآليات.",
           "tag": "بيئة",
-          "nameEn": "Garrisoned Cities"
+          "nameEn": "Garrisoned Cities",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "snow",
@@ -236,7 +262,9 @@
           "summary": "أجواء ثلجية وتحديات على الأرض الباردة.",
           "description": "واحدة من البيئات التي تتنقل بينها مهام اللعبة الست.",
           "tag": "بيئة",
-          "nameEn": "Snowy Valleys"
+          "nameEn": "Snowy Valleys",
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "canyons",
@@ -245,7 +273,9 @@
           "summary": "ممرات ضيقة وفرص كمائن.",
           "description": "بيئة صخرية تواجه فيها المتمردين.",
           "tag": "بيئة",
-          "nameEn": "Canyons"
+          "nameEn": "Canyons",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "bases",
@@ -254,7 +284,9 @@
           "summary": "مرحلة المواجهة الأخيرة مع قيادة المتمردين.",
           "description": "تنتهي المغامرة في قواعد عسكرية، حيث الصراع مع القيادة.",
           "tag": "بيئة",
-          "nameEn": "Military Bases"
+          "nameEn": "Military Bases",
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         }
       ]
     },
@@ -277,7 +309,9 @@
           },
           "tips": [
             "احذر من الجنود الذين يرمون القنابل."
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "morden",
@@ -290,7 +324,9 @@
           "fields": {
             "السنة": "2028",
             "الدور": "قائد الجيش المتمرد"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/General_Morden_Carthew.jpg/960px-General_Morden_Carthew.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "imageSource": "commons:File:General Morden Carthew.jpg"
         },
         {
           "id": "di-cokka",
@@ -305,7 +341,9 @@
           },
           "tips": [
             "ارمِ القنابل على جنب لتدميرها."
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "bosses",
@@ -317,7 +355,9 @@
           "nameEn": "Bosses",
           "tips": [
             "ابحث عن نقطة الضعف بدل إطلاق النار بلا هدف."
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         }
       ]
     },
@@ -370,7 +410,9 @@
             "النوع": "Run and Gun",
             "المهام": "6",
             "السنة": "1996"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "dates",
@@ -385,7 +427,9 @@
             "AES": "24 مايو 1996",
             "CD": "5 يوليو 1996",
             "أندرويد": "2014"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "dev-story",
@@ -397,7 +441,9 @@
           "nameEn": "Development",
           "fields": {
             "التتمة": "Metal Slug 2 (1998), X (1999)"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "reception",
@@ -406,7 +452,9 @@
           "summary": "مراجعات متباينة ثم صارت سلسلة أسطورية.",
           "description": "عند صدورها نالت مراجعات متباينة مع إشادة بروحها المرحة وحركتها السلسة، ثم صارت واحدة من أكبر سلاسل الأركيد.",
           "tag": "معلومة",
-          "nameEn": "Reception"
+          "nameEn": "Reception",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         }
       ]
     },
@@ -438,7 +486,9 @@
               "id": "marco",
               "label": "ماركو"
             }
-          ]
+          ],
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         },
         {
           "id": "tips",
@@ -459,7 +509,9 @@
               "id": "slug",
               "label": "المدرعة SV-001"
             }
-          ]
+          ],
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "where",
@@ -473,7 +525,9 @@
             "أركيد": "Neo Geo MVS",
             "منزلي": "Neo Geo / Saturn / PS / Anthology",
             "جوال": "أندرويد (2014)"
-          }
+          },
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         }
       ]
     },
@@ -493,7 +547,9 @@
           "nameEn": "Slug-only design",
           "fields": {
             "المصدر": "مقابلة Anthology"
-          }
+          },
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "game-article:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "relics",
@@ -502,7 +558,9 @@
           "summary": "ملفات الصور تحمل آثاراً لتصاميم مبكرة.",
           "description": "في ملفات اللعبة بقايا لتصميم مختلف لدبابة Di-Cokka ولواجهات قديمة وحركات إطلاق جوية مبكرة.",
           "tag": "سر تطوير",
-          "nameEn": "Design relics"
+          "nameEn": "Design relics",
+          "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "imageSource": "gallery:File:Metal_Slug_arcade_flyer.jpg"
         },
         {
           "id": "neo-geo-x",
@@ -511,9 +569,13 @@
           "summary": "من العشرين لعبة المثبتة مسبقاً.",
           "description": "من بين العشرين لعبة المثبتة على جهاز Neo Geo X.",
           "tag": "معلومة نادرة",
-          "nameEn": "Neo Geo X"
+          "nameEn": "Neo Geo X",
+          "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/NEOGEO_Metal_Slug_%28Metal_Slug_-_Super_Vehicle-001%29.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "imageSource": "gallery:File:NEOGEO_Metal_Slug_(Metal_Slug_-_Super_Vehicle-001).png"
         }
       ]
     }
-  }
+  },
+  "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Metal_Slug_arcade_flyer.jpg/800px-Metal_Slug_arcade_flyer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "imageSource": "wiki:Metal Slug (1996 video game)"
 }
