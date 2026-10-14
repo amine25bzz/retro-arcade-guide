@@ -1,0 +1,11 @@
+{
+  "name": "retro-arcade-guide",
+  "version": "1.0.0",
+  "description": "دليل ألعاب الأركيد القديمة (Capcom / Konami / SNK) - تطبيق ويب بدون أي مكتبات خارجية",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "fetch-images": "node tools/fetch-images.js"
+  },
+  "license": "MIT"
+}

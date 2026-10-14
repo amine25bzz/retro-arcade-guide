@@ -1,0 +1,934 @@
+{
+  "id": "street-fighter-2",
+  "title": "Street Fighter II: The World Warrior",
+  "titleAr": "ستريت فايتر 2",
+  "company": "capcom",
+  "companyName": "Capcom",
+  "year": "1991",
+  "genre": "قتال 1 ضد 1",
+  "players": "لاعبان",
+  "platform": "أركيد CPS-1",
+  "rating": 4.9,
+  "color": "#e53935",
+  "icon": "🥊",
+  "wiki": "Street_Fighter_II",
+  "summary": "لعبة القتال الأسطورية من Capcom التي أطلقت موجة ألعاب القتال. اختر مقاتلاً من ثمانية، ثم واجه أربعة زعماء حتى بيسون.",
+  "sections": {
+    "heroes": {
+      "title": "المقاتلون",
+      "icon": "🥋",
+      "color": "#e53935",
+      "intro": "ثمانية محاربين من حول العالم.",
+      "items": [
+        {
+          "id": "ryu",
+          "name": "ريو",
+          "icon": "🥋",
+          "summary": "محارب ياباني يبحث عن القوة الحقيقية.",
+          "description": "ريو مقاتل ياباني متجول، وهو الوجه الأشهر للسلسلة. أسلوبه متوازن وحركاته الخاصة أساس تعلم اللعبة.",
+          "tag": "مقاتل",
+          "nameEn": "Ryu",
+          "fields": {
+            "البلد": "اليابان",
+            "أشهر حركاته": "هادوكين، شوريوكين، تاتسوماكي"
+          },
+          "tips": [
+            "ابدأ به لتتعلم الحركات الأساسية."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "hadoken",
+              "label": "هادوكين"
+            },
+            {
+              "section": "weapons",
+              "id": "shoryuken",
+              "label": "شوريوكين"
+            },
+            {
+              "section": "stages",
+              "id": "japan-ryu",
+              "label": "مرحلة ريو"
+            }
+          ],
+          "wiki": "Ryu_(Street_Fighter)"
+        },
+        {
+          "id": "ken",
+          "name": "كين",
+          "icon": "🏆",
+          "summary": "صديق ريو وغريمه، من الولايات المتحدة.",
+          "description": "كين ماسترز تدرب مع ريو. حركاته مشابهة لريو لكن بأسلوب أكثر هجومية في كثير من الإصدارات.",
+          "tag": "مقاتل",
+          "nameEn": "Ken Masters",
+          "fields": {
+            "البلد": "أمريكا",
+            "أشهر حركاته": "هادوكين، شوريوكين"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "ryu",
+              "label": "ريو"
+            }
+          ],
+          "wiki": "Ken_Masters"
+        },
+        {
+          "id": "chun-li",
+          "name": "تشون لي",
+          "icon": "🦵",
+          "summary": "مقاتلة صينية سريعة ببرق الركلات.",
+          "description": "تشون لي أيقونة في ألعاب القتال، وتشتهر بركلاتها السريعة.",
+          "tag": "مقاتلة",
+          "nameEn": "Chun-Li",
+          "fields": {
+            "البلد": "الصين",
+            "أشهر حركاتها": "ركلة البرق (Lightning Kick)"
+          },
+          "tips": [
+            "استعمل ركلاتها بعيدة المدى."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "lightning",
+              "label": "ركلة البرق"
+            }
+          ],
+          "wiki": "Chun-Li"
+        },
+        {
+          "id": "guile",
+          "name": "غايل",
+          "icon": "✈️",
+          "summary": "جندي أمريكي بشعر مرفوع وهجمات الشحن.",
+          "description": "غايل جندي في سلاح الجو الأمريكي. يعتمد على الشحن: تحتفظ بالعصا للخلف ثم تضغط للأمام.",
+          "tag": "مقاتل",
+          "nameEn": "Guile",
+          "fields": {
+            "البلد": "أمريكا",
+            "أشهر حركاته": "سونيك بوم، فلاش كيك"
+          },
+          "tips": [
+            "الدفاع ثم الشحن هو مفتاح اللعب به."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "sonic-boom",
+              "label": "سونيك بوم"
+            },
+            {
+              "section": "weapons",
+              "id": "flash-kick",
+              "label": "فلاش كيك"
+            }
+          ],
+          "wiki": "Guile_(Street_Fighter)"
+        },
+        {
+          "id": "blanka",
+          "name": "بلانكا",
+          "icon": "⚡",
+          "summary": "مقاتل برازيلي أخضر بالكهرباء.",
+          "description": "بلانكا مقاتل من غابات الأمازون، يتميز بهجمات الدحرجة والكهرباء.",
+          "tag": "مقاتل",
+          "nameEn": "Blanka",
+          "fields": {
+            "البلد": "البرازيل",
+            "أشهر حركاته": "الدحرجة، الصعق الكهربائي"
+          },
+          "links": [
+            {
+              "section": "weapons",
+              "id": "electric",
+              "label": "الصعق الكهربائي"
+            }
+          ],
+          "wiki": "Blanka"
+        },
+        {
+          "id": "honda",
+          "name": "إي هوندا",
+          "icon": "🏯",
+          "summary": "مصارع سومو ياباني قوي.",
+          "description": "إي هوندا مصارع سومو يريد التعريف بفنه عالمياً. يشتهر بصفعاته السريعة.",
+          "tag": "مقاتل",
+          "nameEn": "E. Honda",
+          "fields": {
+            "البلد": "اليابان",
+            "أشهر حركاته": "مئة صفعة (Hundred Hand Slap)"
+          },
+          "links": [
+            {
+              "section": "weapons",
+              "id": "hundred-hand",
+              "label": "مئة صفعة"
+            }
+          ],
+          "wiki": "E._Honda"
+        },
+        {
+          "id": "zangief",
+          "name": "زانغيف",
+          "icon": "🐻",
+          "summary": "مصارع سوفيتي قوي بحركات الإمساك.",
+          "description": "زانغيف مصارع روسي هائل القوة، ويعتمد على الإمساك والرمي.",
+          "tag": "مقاتل",
+          "nameEn": "Zangief",
+          "fields": {
+            "البلد": "الاتحاد السوفيتي",
+            "أشهر حركاته": "Spinning Piledriver"
+          },
+          "tips": [
+            "اقترب منه ولا تبقَ أمامه بلا حذر."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "piledriver",
+              "label": "الدوامة"
+            }
+          ],
+          "wiki": "Zangief"
+        },
+        {
+          "id": "dhalsim",
+          "name": "دالسيم",
+          "icon": "🧘",
+          "summary": "نسّاك هندي بأطراف تمتد.",
+          "description": "دالسيم يعتمد على المسافة بأطرافه الممتدة وكرات النار اليوغية.",
+          "tag": "مقاتل",
+          "nameEn": "Dhalsim",
+          "fields": {
+            "البلد": "الهند",
+            "أشهر حركاته": "نار اليوغا"
+          },
+          "links": [
+            {
+              "section": "weapons",
+              "id": "yoga-fire",
+              "label": "نار اليوغا"
+            }
+          ],
+          "wiki": "Dhalsim"
+        }
+      ]
+    },
+    "weapons": {
+      "title": "الحركات الخاصة",
+      "icon": "💥",
+      "color": "#3498db",
+      "intro": "اللعبة بلا أسلحة، لكن لكل مقاتل حركاته المميزة.",
+      "items": [
+        {
+          "id": "hadoken",
+          "name": "هادوكين",
+          "icon": "🔵",
+          "summary": "كرة طاقة تُرمى للأمام.",
+          "description": "حركة ريو وكين الأشهر. بإدخال ربع دائرة للأمام ثم ضغط زر لكمة.",
+          "tag": "حركة خاصة",
+          "nameEn": "Hadoken",
+          "fields": {
+            "الإدخال": "ربع دائرة للأمام + لكمة",
+            "الشخصيات": "ريو، كين"
+          },
+          "tips": [
+            "لا تكررها بلا حساب، العدو يقفز فوقها."
+          ],
+          "links": [
+            {
+              "section": "heroes",
+              "id": "ryu",
+              "label": "ريو"
+            },
+            {
+              "section": "heroes",
+              "id": "ken",
+              "label": "كين"
+            }
+          ]
+        },
+        {
+          "id": "shoryuken",
+          "name": "شوريوكين",
+          "icon": "🐉",
+          "summary": "لكمة صاعدة قوية.",
+          "description": "حركة قتال جوي تُستعمل لصد القفز.",
+          "tag": "حركة خاصة",
+          "nameEn": "Shoryuken",
+          "fields": {
+            "الإدخال": "أمام ثم أسفل ثم أسفل-أمام + لكمة",
+            "الشخصيات": "ريو، كين"
+          },
+          "tips": [
+            "مثالية ضد القفزات."
+          ],
+          "links": [
+            {
+              "section": "heroes",
+              "id": "ryu",
+              "label": "ريو"
+            }
+          ]
+        },
+        {
+          "id": "sonic-boom",
+          "name": "سونيك بوم",
+          "icon": "🌀",
+          "summary": "موجة طاقة بعد الشحن.",
+          "description": "هجوم غايل المشهور: حرّك للخلف مع الاحتفاظ ثم للأمام مع اللكمة.",
+          "tag": "حركة خاصة",
+          "nameEn": "Sonic Boom",
+          "fields": {
+            "الإدخال": "شحن خلف ثم أمام + لكمة"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "guile",
+              "label": "غايل"
+            }
+          ]
+        },
+        {
+          "id": "flash-kick",
+          "name": "فلاش كيك",
+          "icon": "🦶",
+          "summary": "ركلة صاعدة بعد الشحن.",
+          "description": "ركلة دفاعية قوية لغايل.",
+          "tag": "حركة خاصة",
+          "nameEn": "Flash Kick",
+          "fields": {
+            "الإدخال": "شحن أسفل ثم أعلى + ركلة"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "guile",
+              "label": "غايل"
+            }
+          ]
+        },
+        {
+          "id": "lightning",
+          "name": "ركلة البرق",
+          "icon": "⚡",
+          "summary": "ركلات سريعة متتالية.",
+          "description": "تشون لي تضغط زر الركلة بسرعة لتنفيذ سلسلة ركلات.",
+          "tag": "حركة خاصة",
+          "nameEn": "Lightning Kick",
+          "fields": {
+            "الإدخال": "ركلة متكررة"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "chun-li",
+              "label": "تشون لي"
+            }
+          ]
+        },
+        {
+          "id": "electric",
+          "name": "الصعق الكهربائي",
+          "icon": "🔌",
+          "summary": "يصعق بلانكا الخصم بالكهرباء.",
+          "description": "هجوم قريب المدى لبلانكا يحميه من الاقتراب.",
+          "tag": "حركة خاصة",
+          "nameEn": "Electric Thunder",
+          "links": [
+            {
+              "section": "heroes",
+              "id": "blanka",
+              "label": "بلانكا"
+            }
+          ]
+        },
+        {
+          "id": "hundred-hand",
+          "name": "مئة صفعة",
+          "icon": "🖐️",
+          "summary": "صفعات سريعة لإي هوندا.",
+          "description": "يضغط اللاعب زر اللكمة بسرعة لتوجيه صفعات متتالية.",
+          "tag": "حركة خاصة",
+          "nameEn": "Hundred Hand Slap",
+          "links": [
+            {
+              "section": "heroes",
+              "id": "honda",
+              "label": "إي هوندا"
+            }
+          ]
+        },
+        {
+          "id": "piledriver",
+          "name": "دوامة زانغيف",
+          "icon": "🌪️",
+          "summary": "رمي دوار مدمر.",
+          "description": "تنفيذ إمساك ثم حركة دائرية، من أقوى الحركات في اللعبة.",
+          "tag": "حركة خاصة",
+          "nameEn": "Spinning Piledriver",
+          "fields": {
+            "الإدخال": "دوران كامل للعصا بالقرب من الخصم"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "zangief",
+              "label": "زانغيف"
+            }
+          ]
+        },
+        {
+          "id": "yoga-fire",
+          "name": "نار اليوغا",
+          "icon": "🔥",
+          "summary": "كرة نار يطلقها دالسيم.",
+          "description": "يطلق دالسيم كرة نار من فمه.",
+          "tag": "حركة خاصة",
+          "nameEn": "Yoga Fire",
+          "links": [
+            {
+              "section": "heroes",
+              "id": "dhalsim",
+              "label": "دالسيم"
+            }
+          ]
+        },
+        {
+          "id": "tiger-shot",
+          "name": "هجمة النمر",
+          "icon": "🐯",
+          "summary": "كرة طاقة يطلقها ساغات.",
+          "description": "هجوم ساغات على مسافتين (علوية وسفلية) مع ضربة صاعدة قوية.",
+          "tag": "حركة خاصة",
+          "nameEn": "Tiger Shot",
+          "links": [
+            {
+              "section": "enemies",
+              "id": "sagat",
+              "label": "ساغات"
+            }
+          ]
+        },
+        {
+          "id": "psycho-crusher",
+          "name": "سايكو كراشر",
+          "icon": "💜",
+          "summary": "هجوم بيسون المدمر.",
+          "description": "اندفاع محاط بالطاقة النفسية يستعمله إم بيسون.",
+          "tag": "حركة خاصة",
+          "nameEn": "Psycho Crusher",
+          "links": [
+            {
+              "section": "enemies",
+              "id": "bison",
+              "label": "إم بيسون"
+            }
+          ]
+        }
+      ]
+    },
+    "stages": {
+      "title": "المراحل",
+      "icon": "🗺️",
+      "color": "#2ecc71",
+      "intro": "ساحة لكل مقاتل وزعيم.",
+      "items": [
+        {
+          "id": "japan-ryu",
+          "name": "اليابان (ريو)",
+          "icon": "🏯",
+          "summary": "قلعة يابانية قديمة.",
+          "description": "ساحة ريو في اليابان بخلفية قلعة تقليدية.",
+          "tag": "مرحلة",
+          "nameEn": "Japan",
+          "fields": {
+            "المقاتل": "ريو"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "ryu",
+              "label": "ريو"
+            }
+          ]
+        },
+        {
+          "id": "usa-ken",
+          "name": "أمريكا (كين)",
+          "icon": "🛥️",
+          "summary": "مرحلة ثرية على الساحل الأمريكي.",
+          "description": "ساحة كين في الولايات المتحدة.",
+          "tag": "مرحلة",
+          "nameEn": "USA",
+          "fields": {
+            "المقاتل": "كين"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "ken",
+              "label": "كين"
+            }
+          ]
+        },
+        {
+          "id": "china",
+          "name": "الصين (تشون لي)",
+          "icon": "🏮",
+          "summary": "شارع صيني مزدحم.",
+          "description": "ساحة تشون لي وسط سوق صيني.",
+          "tag": "مرحلة",
+          "nameEn": "China",
+          "fields": {
+            "المقاتلة": "تشون لي"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "chun-li",
+              "label": "تشون لي"
+            }
+          ]
+        },
+        {
+          "id": "usa-guile",
+          "name": "أمريكا (غايل)",
+          "icon": "✈️",
+          "summary": "قاعدة جوية.",
+          "description": "ساحة غايل على قاعدة سلاح الجو الأمريكي.",
+          "tag": "مرحلة",
+          "nameEn": "USA Air Base",
+          "fields": {
+            "المقاتل": "غايل"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "guile",
+              "label": "غايل"
+            }
+          ]
+        },
+        {
+          "id": "brazil",
+          "name": "البرازيل (بلانكا)",
+          "icon": "🌳",
+          "summary": "نهر الأمازون.",
+          "description": "ساحة بلانكا في غابات البرازيل.",
+          "tag": "مرحلة",
+          "nameEn": "Brazil",
+          "fields": {
+            "المقاتل": "بلانكا"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "blanka",
+              "label": "بلانكا"
+            }
+          ]
+        },
+        {
+          "id": "japan-honda",
+          "name": "اليابان (هوندا)",
+          "icon": "♨️",
+          "summary": "حمّام ياباني.",
+          "description": "ساحة إي هوندا في حمّام تقليدي.",
+          "tag": "مرحلة",
+          "nameEn": "Bathhouse",
+          "fields": {
+            "المقاتل": "إي هوندا"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "honda",
+              "label": "إي هوندا"
+            }
+          ]
+        },
+        {
+          "id": "ussr",
+          "name": "الاتحاد السوفيتي (زانغيف)",
+          "icon": "🏭",
+          "summary": "مصنع.",
+          "description": "ساحة زانغيف في مصنع سوفيتي.",
+          "tag": "مرحلة",
+          "nameEn": "USSR",
+          "fields": {
+            "المقاتل": "زانغيف"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "zangief",
+              "label": "زانغيف"
+            }
+          ]
+        },
+        {
+          "id": "india",
+          "name": "الهند (دالسيم)",
+          "icon": "🐘",
+          "summary": "معبد بالفيلة.",
+          "description": "ساحة دالسيم في الهند.",
+          "tag": "مرحلة",
+          "nameEn": "India",
+          "fields": {
+            "المقاتل": "دالسيم"
+          },
+          "links": [
+            {
+              "section": "heroes",
+              "id": "dhalsim",
+              "label": "دالسيم"
+            }
+          ]
+        },
+        {
+          "id": "vegas",
+          "name": "لاس فيغاس (بالروغ)",
+          "icon": "🎰",
+          "summary": "كازينو.",
+          "description": "مرحلة الزعيم الأول في لاس فيغاس.",
+          "tag": "مرحلة الزعماء",
+          "nameEn": "Las Vegas",
+          "fields": {
+            "الزعيم": "بالروغ"
+          },
+          "links": [
+            {
+              "section": "enemies",
+              "id": "balrog",
+              "label": "بالروغ"
+            }
+          ]
+        },
+        {
+          "id": "spain",
+          "name": "إسبانيا (فيغا)",
+          "icon": "💃",
+          "summary": "ملهى إسباني.",
+          "description": "مرحلة فيغا في إسبانيا.",
+          "tag": "مرحلة الزعماء",
+          "nameEn": "Spain",
+          "fields": {
+            "الزعيم": "فيغا"
+          },
+          "links": [
+            {
+              "section": "enemies",
+              "id": "vega",
+              "label": "فيغا"
+            }
+          ]
+        },
+        {
+          "id": "thailand-sagat",
+          "name": "تايلاند (ساغات)",
+          "icon": "🛕",
+          "summary": "معبد.",
+          "description": "مرحلة ساغات في تايلاند.",
+          "tag": "مرحلة الزعماء",
+          "nameEn": "Thailand",
+          "fields": {
+            "الزعيم": "ساغات"
+          },
+          "links": [
+            {
+              "section": "enemies",
+              "id": "sagat",
+              "label": "ساغات"
+            }
+          ]
+        },
+        {
+          "id": "thailand-bison",
+          "name": "تايلاند (إم بيسون)",
+          "icon": "🏰",
+          "summary": "قاعدة شادالو.",
+          "description": "المرحلة النهائية مع زعيم شادالو.",
+          "tag": "المرحلة الأخيرة",
+          "nameEn": "Shadaloo Base",
+          "fields": {
+            "الزعيم": "إم بيسون"
+          },
+          "links": [
+            {
+              "section": "enemies",
+              "id": "bison",
+              "label": "إم بيسون"
+            }
+          ]
+        }
+      ]
+    },
+    "enemies": {
+      "title": "الزعماء",
+      "icon": "👹",
+      "color": "#9b59b6",
+      "intro": "الزعماء الأربعة بقيادة بيسون.",
+      "items": [
+        {
+          "id": "balrog",
+          "name": "بالروغ",
+          "icon": "🥊",
+          "summary": "ملاكم قوي، أول الزعماء الأربعة.",
+          "description": "زعيم ملاكم ينتمي إلى شادالو. (في النسخة اليابانية تُبدَّل أسماء الزعماء الثلاثة بين بالروغ وفيغا وإم بيسون.)",
+          "tag": "زعيم",
+          "nameEn": "Balrog",
+          "fields": {
+            "البلد": "أمريكا",
+            "الدور": "ملاكم"
+          },
+          "links": [
+            {
+              "section": "stages",
+              "id": "vegas",
+              "label": "لاس فيغاس"
+            }
+          ],
+          "wiki": "Balrog_(Street_Fighter)"
+        },
+        {
+          "id": "vega",
+          "name": "فيغا",
+          "icon": "🦅",
+          "summary": "مقاتل مخلب إسباني.",
+          "description": "زعيم رشيق يستعمل مخلباً وقناعاً، وأسلوبه سريع القفز.",
+          "tag": "زعيم",
+          "nameEn": "Vega",
+          "fields": {
+            "البلد": "إسبانيا"
+          },
+          "links": [
+            {
+              "section": "stages",
+              "id": "spain",
+              "label": "إسبانيا"
+            }
+          ],
+          "wiki": "Vega_(Street_Fighter)"
+        },
+        {
+          "id": "sagat",
+          "name": "ساغات",
+          "icon": "🐯",
+          "summary": "ملك المواي تاي ذو الندبة.",
+          "description": "ساغات ملك المواي تاي في تايلاند. في القصة الأصلية، الندبة على صدره سببها ريو.",
+          "tag": "زعيم",
+          "nameEn": "Sagat",
+          "fields": {
+            "البلد": "تايلاند"
+          },
+          "tips": [
+            "ابتعد عن كرات النمر وتقدم بحذر."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "tiger-shot",
+              "label": "هجمة النمر"
+            },
+            {
+              "section": "stages",
+              "id": "thailand-sagat",
+              "label": "تايلاند"
+            }
+          ],
+          "wiki": "Sagat"
+        },
+        {
+          "id": "bison",
+          "name": "إم بيسون",
+          "icon": "🔴",
+          "summary": "زعيم شادالو والعدو الأخير.",
+          "description": "القائد الشرير لمنظمة شادالو ومستضيف البطولة، ويستخدم الطاقة النفسية.",
+          "tag": "الزعيم الأخير",
+          "nameEn": "M. Bison",
+          "fields": {
+            "الدور": "زعيم شادالو"
+          },
+          "links": [
+            {
+              "section": "weapons",
+              "id": "psycho-crusher",
+              "label": "سايكو كراشر"
+            },
+            {
+              "section": "stages",
+              "id": "thailand-bison",
+              "label": "قاعدة شادالو"
+            }
+          ],
+          "wiki": "M._Bison"
+        }
+      ]
+    },
+    "story": {
+      "title": "القصة",
+      "icon": "📖",
+      "color": "#f39c12",
+      "intro": "البطولة والمنظمة.",
+      "blocks": [
+        {
+          "icon": "🌍",
+          "title": "بطولة المحاربين",
+          "text": "يدعو منظمو بطولة قتال عالمية أقوى المقاتلين من أنحاء العالم، فيصل ثمانية محاربين لكل منهم سببه وأسلوبه."
+        },
+        {
+          "icon": "🥊",
+          "title": "الزعماء الأربعة",
+          "text": "بعد هزيمة بقية المقاتلين، يواجه الفائز أربعة زعماء: بالروغ وفيغا وساغات، ثم قائد المنظمة إم بيسون."
+        },
+        {
+          "icon": "🔴",
+          "title": "منظمة شادالو",
+          "text": "وراء البطولة منظمة شادالو بقيادة إم بيسون، الذي يخطط لاستعمال المقاتلين لأهدافه."
+        }
+      ]
+    },
+    "info": {
+      "title": "معلومات إضافية",
+      "icon": "ℹ️",
+      "color": "#1abc9c",
+      "intro": "البطاقة والنسخ والتأثير.",
+      "items": [
+        {
+          "id": "dev",
+          "name": "بطاقة اللعبة",
+          "icon": "📋",
+          "summary": "Capcom وCPS-1 وسنة 1991.",
+          "description": "لعبة قتال من Capcom على لوحة CPS-1. تضم ثمانية مقاتلين قابلين للاختيار وأربعة زعماء، وأزرار ستة (3 لكمات و3 ركلات).",
+          "tag": "معلومة",
+          "nameEn": "Game Card",
+          "fields": {
+            "المطور": "Capcom",
+            "المنصة": "CPS-1",
+            "السنة": "1991",
+            "الأزرار": "6",
+            "المقاتلون": "8 + 4 زعماء"
+          }
+        },
+        {
+          "id": "versions",
+          "name": "النسخ اللاحقة",
+          "icon": "🔁",
+          "summary": "Champion Edition وHyper Fighting وSuper وSuper Turbo.",
+          "description": "صدرت بعد النسخة الأصلية عدة تحسينات، منها Champion Edition وHyper Fighting وSuper Street Fighter II وSuper Turbo.",
+          "tag": "معلومة",
+          "nameEn": "Versions"
+        },
+        {
+          "id": "impact",
+          "name": "تأثير اللعبة",
+          "icon": "🌟",
+          "summary": "غيّرت عالم ألعاب القتال.",
+          "description": "من الألعاب التي أطلقت موجة ألعاب القتال في الصالات، وما زالت تُلعب في البطولات.",
+          "tag": "معلومة",
+          "nameEn": "Impact"
+        }
+      ]
+    },
+    "howto": {
+      "title": "طريقة اللعب وأين تجدها",
+      "icon": "🎮",
+      "color": "#f1c40f",
+      "intro": "التحكم والنصائح والإصدارات.",
+      "items": [
+        {
+          "id": "controls",
+          "name": "أزرار التحكم",
+          "icon": "🕹️",
+          "summary": "عصا وستة أزرار.",
+          "description": "ثلاثة أزرار للكمات (خفيفة ومتوسطة وقوية) وثلاثة للركلات. الحركات الخاصة تُنفَّذ بإدخالات حركة العصا.",
+          "tag": "التحكم",
+          "nameEn": "Controls",
+          "fields": {
+            "اللكمات": "3",
+            "الركلات": "3"
+          },
+          "tips": [
+            "تعلّم الإدخالات في وضع التدريب."
+          ],
+          "links": [
+            {
+              "section": "weapons",
+              "id": "hadoken",
+              "label": "هادوكين"
+            }
+          ]
+        },
+        {
+          "id": "tips",
+          "name": "نصائح للمبتدئين",
+          "icon": "💡",
+          "summary": "ابدأ بريو أو غايل.",
+          "description": "تعلّم الدفاع قبل الهجوم، وراقب مسافتك، ولا تكرر الحركة نفسها.",
+          "tag": "نصائح",
+          "nameEn": "Tips",
+          "tips": [
+            "الدفاع مهم قدر الهجوم.",
+            "لا تقفز كثيراً."
+          ]
+        },
+        {
+          "id": "where",
+          "name": "أين أجد اللعبة؟",
+          "icon": "📍",
+          "summary": "على كثير من المنصات.",
+          "description": "توجد اللعبة ضمن مجموعات وإصدارات حديثة مثل Street Fighter 30th Anniversary Collection وUltra Street Fighter II على Switch. (تحقق من توفرها في متجر منصتك حالياً.)",
+          "tag": "مكان اللعب",
+          "nameEn": "Where to play"
+        }
+      ]
+    },
+    "secrets": {
+      "title": "أسرار ومعلومات نادرة",
+      "icon": "🔐",
+      "color": "#ff3d7f",
+      "intro": "أسرار جانبية.",
+      "items": [
+        {
+          "id": "bonus",
+          "name": "مراحل المكافأة",
+          "icon": "🚗",
+          "summary": "مراحل لتحطيم سيارة وبراميل.",
+          "description": "في اللعبة مراحل مكافأة تحطم فيها سيارة وبراميل وأهدافاً أخرى لجمع نقاط إضافية.",
+          "tag": "سر",
+          "nameEn": "Bonus Stages"
+        },
+        {
+          "id": "names",
+          "name": "تبديل أسماء الزعماء",
+          "icon": "🔁",
+          "summary": "الأسماء مختلفة في اليابان.",
+          "description": "في النسخة اليابانية تبدَّل أسماء بالروغ وفيغا وإم بيسون بينها، لذلك قد تجد اختلافاً في الأسماء بين النسخ.",
+          "tag": "معلومة نادرة",
+          "nameEn": "Name swap"
+        },
+        {
+          "id": "scar",
+          "name": "ندبة ساغات",
+          "icon": "🩹",
+          "summary": "من قصة السلسلة.",
+          "description": "في القصة الأصلية، ندبة صدر ساغات سببها ضربة شوريوكين من ريو.",
+          "tag": "معلومة نادرة",
+          "nameEn": "Sagat's scar",
+          "links": [
+            {
+              "section": "enemies",
+              "id": "sagat",
+              "label": "ساغات"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

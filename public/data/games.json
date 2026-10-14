@@ -1,0 +1,30 @@
+{
+  "companies": [
+    { "id": "capcom", "name": "Capcom", "note": "كابكوم: Street Fighter وCadillacs and Dinosaurs وFinal Fight وCaptain Commando" },
+    { "id": "snk", "name": "SNK (Neo Geo)", "note": "إس إن كيه: Metal Slug وKing of Fighters وSamurai Shodown وFatal Fury" },
+    { "id": "konami", "name": "Konami", "note": "كونامي: Contra وSunset Riders وGradius وHaunted Castle" }
+  ],
+  "games": [
+    { "id": "cadillacs-and-dinosaurs", "hasGuide": true, "title": "Cadillacs and Dinosaurs", "titleAr": "كاديلاكس والديناصورات", "company": "capcom", "companyName": "Capcom", "year": "1993", "rating": 4.9, "color": "#ff8a1f", "icon": "🦖", "image": "images/cadillacs/CADlogo.PNG", "wiki": "Cadillacs_and_Dinosaurs_(video_game)" },
+    { "id": "metal-slug", "hasGuide": true, "title": "Metal Slug", "titleAr": "ميتال سلاغ", "company": "snk", "companyName": "SNK", "year": "1996", "rating": 4.8, "color": "#c9b21e", "icon": "🪖", "wiki": "Metal_Slug_(1996_video_game)" },
+    { "id": "street-fighter-2", "hasGuide": true, "title": "Street Fighter II: The World Warrior", "titleAr": "ستريت فايتر 2", "company": "capcom", "companyName": "Capcom", "year": "1991", "rating": 4.9, "color": "#e53935", "icon": "🥊", "wiki": "Street_Fighter_II" },
+
+    { "id": "final-fight", "hasGuide": false, "title": "Final Fight", "titleAr": "فاينل فايت", "company": "capcom", "companyName": "Capcom", "year": "1989", "rating": 4.5, "color": "#2e86de", "icon": "👊", "wiki": "Final_Fight" },
+    { "id": "captain-commando", "hasGuide": false, "title": "Captain Commando", "titleAr": "كابتن كوماندو", "company": "capcom", "companyName": "Capcom", "year": "1991", "rating": 4.4, "color": "#3498db", "icon": "⚡", "wiki": "Captain_Commando" },
+    { "id": "knights-of-the-round", "hasGuide": false, "title": "Knights of the Round", "titleAr": "فرسان المائدة المستديرة", "company": "capcom", "companyName": "Capcom", "year": "1991", "rating": 4.3, "color": "#8e44ad", "icon": "🛡️", "wiki": "Knights_of_the_Round_(video_game)" },
+    { "id": "1942", "hasGuide": false, "title": "1942", "titleAr": "1942", "company": "capcom", "companyName": "Capcom", "year": "1984", "rating": 4.1, "color": "#27ae60", "icon": "✈️", "wiki": "1942_(video_game)" },
+    { "id": "ghosts-n-goblins", "hasGuide": false, "title": "Ghosts 'n Goblins", "titleAr": "غوستس إن غوبلنز", "company": "capcom", "companyName": "Capcom", "year": "1985", "rating": 4.2, "color": "#d35400", "icon": "👻", "wiki": "Ghosts_%27n_Goblins" },
+
+    { "id": "metal-slug-2", "hasGuide": false, "title": "Metal Slug 2", "titleAr": "ميتال سلاغ 2", "company": "snk", "companyName": "SNK", "year": "1998", "rating": 4.7, "color": "#e67e22", "icon": "🪖", "wiki": "Metal_Slug_2" },
+    { "id": "metal-slug-x", "hasGuide": false, "title": "Metal Slug X", "titleAr": "ميتال سلاغ إكس", "company": "snk", "companyName": "SNK", "year": "1999", "rating": 4.8, "color": "#d4ac0d", "icon": "💣", "wiki": "Metal_Slug_X" },
+    { "id": "metal-slug-3", "hasGuide": false, "title": "Metal Slug 3", "titleAr": "ميتال سلاغ 3", "company": "snk", "companyName": "SNK", "year": "2000", "rating": 4.9, "color": "#1abc9c", "icon": "🚀", "wiki": "Metal_Slug_3" },
+    { "id": "king-of-fighters-98", "hasGuide": false, "title": "The King of Fighters '98", "titleAr": "ملك المقاتلين 98", "company": "snk", "companyName": "SNK", "year": "1998", "rating": 4.8, "color": "#c0392b", "icon": "🔥", "wiki": "The_King_of_Fighters_%2798" },
+    { "id": "samurai-shodown", "hasGuide": false, "title": "Samurai Shodown", "titleAr": "ساموراي شودون", "company": "snk", "companyName": "SNK", "year": "1993", "rating": 4.4, "color": "#7f8c8d", "icon": "⚔️", "wiki": "Samurai_Shodown" },
+    { "id": "fatal-fury", "hasGuide": false, "title": "Fatal Fury", "titleAr": "فاتال فيوري", "company": "snk", "companyName": "SNK", "year": "1991", "rating": 4.3, "color": "#2980b9", "icon": "🥋", "wiki": "Fatal_Fury:_King_of_Fighters" },
+
+    { "id": "contra", "hasGuide": false, "title": "Contra", "titleAr": "كونترا", "company": "konami", "companyName": "Konami", "year": "1987", "rating": 4.7, "color": "#e74c3c", "icon": "🔫", "wiki": "Contra_(video_game)" },
+    { "id": "sunset-riders", "hasGuide": false, "title": "Sunset Riders", "titleAr": "فرسان الغروب", "company": "konami", "companyName": "Konami", "year": "1991", "rating": 4.5, "color": "#e67e22", "icon": "🤠", "wiki": "Sunset_Riders" },
+    { "id": "gradius", "hasGuide": false, "title": "Gradius", "titleAr": "غراديوس", "company": "konami", "companyName": "Konami", "year": "1985", "rating": 4.3, "color": "#3498db", "icon": "🚀", "wiki": "Gradius" },
+    { "id": "haunted-castle", "hasGuide": false, "title": "Haunted Castle (Castlevania Arcade)", "titleAr": "كاسلفينيا أركيد (قلعة الأشباح)", "company": "konami", "companyName": "Konami", "year": "1988", "rating": 4.2, "color": "#6c5ce7", "icon": "🏰", "wiki": "Haunted_Castle_(video_game)" }
+  ]
+}
