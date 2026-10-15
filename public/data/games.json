@@ -47,18 +47,17 @@
     },
     {
       "id": "final-fight",
-      "hasGuide": false,
+      "hasGuide": true,
       "title": "Final Fight",
       "titleAr": "فاينل فايت",
       "company": "capcom",
       "companyName": "Capcom",
       "year": "1989",
-      "rating": 4.5,
+      "rating": 4.8,
       "color": "#2e86de",
       "icon": "👊",
       "wiki": "Final_Fight",
-      "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Final_Fight.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-      "imageSource": "wiki:Final Fight"
+      "image": "images/final-fight/logo.png"
     },
     {
       "id": "captain-commando",
@@ -68,11 +67,11 @@
       "company": "capcom",
       "companyName": "Capcom",
       "year": "1991",
-      "rating": 4.4,
-      "color": "#3498db",
+      "rating": 4.7,
+      "color": "#0984e3",
       "icon": "⚡",
       "wiki": "Captain_Commando",
-      "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Captain_Commando.png"
+      "image": "images/captain-commando/logo.png"
     },
     {
       "id": "knights-of-the-round",
@@ -130,7 +129,7 @@
       "color": "#e67e22",
       "icon": "🥋",
       "wiki": "Art_of_Fighting",
-      "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Art_of_Fighting_flyer.jpg"
+      "image": "https://preview.redd.it/hello-would-you-like-to-see-an-art-of-fighting-4-what-story-v0-kbo81t1lce3c1.png?width=900&format=png&auto=webp&s=b9f47a2d56a2046c515bcca2434ba2c5ef99b2e6"
     },
     {
       "id": "the-last-blade",
@@ -144,7 +143,7 @@
       "color": "#16a085",
       "icon": "⚔️",
       "wiki": "The_Last_Blade",
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Last_Blade_flyer.jpg"
+      "image": "https://www.neo-geo.com/reviews/neo-reviews/lastblade/lb1b.jpg"
     },
     {
       "id": "king-of-fighters-98",
